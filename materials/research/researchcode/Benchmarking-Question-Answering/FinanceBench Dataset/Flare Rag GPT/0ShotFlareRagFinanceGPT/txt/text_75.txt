@@ -1,0 +1,313 @@
+Consolidated Statements of Operations
+ 
+For the Years Ended December 31,
+In millions, except per share amounts
+2018
+ 
+2017
+ 
+2016
+Revenues:
+ 
+   
+   
+Products
+$
+183,910   $
+180,063   $
+173,377
+Premiums
+8,184  
+3,558  
+3,069
+Services
+1,825  
+1,144  
+1,080
+Net investment income
+660  
+21  
+20
+Total revenues
+194,579  
+184,786  
+177,546
+Operating costs:
+ 
+   
+   
+Cost of products sold
+156,447  
+153,448  
+146,533
+Benefit costs
+6,594  
+2,810  
+2,179
+Goodwill impairments
+6,149  
+181  
+—
+Operating expenses
+21,368  
+18,809  
+18,448
+Total operating costs
+190,558  
+175,248  
+167,160
+Operating income
+4,021  
+9,538  
+10,386
+Interest expense
+2,619  
+1,062  
+1,078
+Loss on early extinguishment of debt
+—  
+—  
+643
+Other expense (income)
+(4)  
+208  
+28
+Income before income tax provision
+1,406  
+8,268  
+8,637
+Income tax provision
+2,002  
+1,637  
+3,317
+Income (loss) from continuing operations
+(596)  
+6,631  
+5,320
+Loss from discontinued operations, net of tax
+—  
+(8)  
+(1)
+Net income (loss)
+(596)  
+6,623  
+5,319
+Net (income) loss attributable to noncontrolling interests
+2  
+(1)  
+(2)
+Net income (loss) attributable to CVS Health
+$
+(594)   $
+6,622   $
+5,317
+ 
+ 
+   
+   
+Basic earnings (loss) per share:
+ 
+   
+   
+Income (loss) from continuing operations attributable to CVS Health
+$
+(0.57)   $
+6.48   $
+4.93
+Loss from discontinued operations attributable to CVS Health
+$
+—   $
+(0.01)   $
+—
+Net income (loss) attributable to CVS Health
+$
+(0.57)   $
+6.47   $
+4.93
+Weighted average basic shares outstanding
+1,044  
+1,020  
+1,073
+Diluted earnings (loss) per share:
+ 
+   
+   
+Income (loss) from continuing operations attributable to CVS Health
+$
+(0.57)   $
+6.45   $
+4.91
+Loss from discontinued operations attributable to CVS Health
+$
+—   $
+(0.01)   $
+—
+Net income (loss) attributable to CVS Health
+$
+(0.57)   $
+6.44   $
+4.90
+Weighted average diluted shares outstanding
+1,044  
+1,024  
+1,079
+Dividends declared per share
+$
+2.00   $
+2.00   $
+1.70
+ 
+ 
+   
+   
+See accompanying notes to consolidated financial statements.
+Page 38___FINANCEBENCH_DELIMITER___Consolidated Balance Sheets
+ 
+At December 31,
+In millions, except per share amounts
+2018
+ 
+2017
+Assets:
+ 
+   
+Cash and cash equivalents
+$
+4,059   $
+1,696
+Investments
+2,522  
+111
+Accounts receivable, net
+17,631  
+13,181
+Inventories
+16,450  
+15,296
+Other current assets
+4,581  
+945
+Total current assets
+45,243  
+31,229
+Long-term investments
+15,732  
+112
+Property and equipment, net
+11,349  
+10,292
+Goodwill
+78,678  
+38,451
+Intangible assets, net
+36,524  
+13,630
+Separate accounts assets
+3,884  
+—
+Other assets
+5,046  
+1,417
+Total assets
+$
+196,456   $
+95,131
+ 
+ 
+   
+Liabilities:
+ 
+   
+Accounts payable
+$
+8,925   $
+8,863
+Pharmacy claims and discounts payable
+12,302  
+10,355
+Health care costs payable
+5,210  
+5
+Policyholders’ funds
+2,939  
+—
+Accrued expenses
+10,711  
+6,581
+Other insurance liabilities
+1,937  
+23
+Short-term debt
+720  
+1,276
+Current portion of long-term debt
+1,265  
+3,545
+Total current liabilities
+44,009  
+30,648
+Long-term debt
+71,444  
+22,181
+Deferred income taxes
+7,677  
+2,996
+Separate accounts liabilities
+3,884  
+—
+Other long-term insurance liabilities
+8,119  
+334
+Other long-term liabilities
+2,780  
+1,277
+Total liabilities
+137,913  
+57,436
+Commitments and contingencies (Note 16)
+ 
+ 
+ 
+   
+Shareholders’ equity:
+ 
+ 
+ 
+CVS Health shareholders’ equity:
+ 
+   
+Preferred stock, par value $0.01: 0.1 shares authorized; none issued or outstanding
+—  
+—
+Common stock, par value $0.01: 3,200 shares authorized; 1,720 shares issued and 1,295 shares outstanding at
+December 31, 2018 and 1,712 shares issued and 1,014 shares outstanding at December 31, 2017 and capital
+surplus
+45,440  
+32,096
+Treasury stock, at cost: 425 shares at December 31, 2018 and 698 shares at December 31, 2017
+(28,228)  
+(37,796)
+Retained earnings
+40,911  
+43,556
+Accumulated other comprehensive income (loss)
+102  
+(165)
+Total CVS Health shareholders’ equity
+58,225  
+37,691
+Noncontrolling interests
+318  
+4
+Total shareholders’ equity
+58,543  
+37,695
+Total liabilities and shareholders’ equity
+$
+196,456   $
+95,131
+ 
+ 
+   
+See accompanying notes to consolidated financial statements.
+Page 40

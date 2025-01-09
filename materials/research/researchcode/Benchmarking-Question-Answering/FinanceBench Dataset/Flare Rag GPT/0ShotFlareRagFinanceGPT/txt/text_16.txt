@@ -1,0 +1,22 @@
+Consolidated Balance Sheets
+December 31, 2022 and 2021
+2022 2021
+(in millions, except share and per share data)
+ASSETS
+CURRENT ASSETS
+Cash and cash equivalents $ 1,374 $ 943
+Restricted cash 536 304
+Short-term investments 730 232
+Accounts receivable, net of allowance for doubtful accounts of $5 and $5, respectively 1,799 1,418
+Inventory 1,055 604___FINANCEBENCH_DELIMITER___Consolidated Statements of Operations
+Years ended December 31, 2022, 2021, and 2020
+2022 2021 2020
+(in millions, except per share amounts)
+Revenue:
+Regulated $ 3,538 $ 2,868 $ 2,661
+Non-Regulated 9,079 8,273 6,999
+Total revenue 12,617 11,141 9,660
+Cost of Sales:
+Regulated (3,162) (2,448) (2,235)
+Non-Regulated (6,907) (5,982) (4,732)
+Total cost of sales (10,069) (8,430) (6,967)

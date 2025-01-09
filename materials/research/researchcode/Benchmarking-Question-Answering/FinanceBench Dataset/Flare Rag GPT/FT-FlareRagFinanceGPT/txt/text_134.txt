@@ -1,0 +1,20 @@
+The following summarizes revenues by geographic area:
+Three Months Ended Six Months Ended
+(MILLIONS)
+July 2,
+2023
+July 3,
+2022
+%
+Change
+July 2,
+2023
+July 3,
+2022
+%
+Change
+United States $ 6,185 $ 11,222 (45) $ 14,692 $ 20,140 (27)
+Developed Europe 2,415 5,480 (56) 5,236 11,569 (55)
+Developed Rest of World 1,305 5,034 (74) 3,778 8,320 (55)
+Emerging Markets 2,828 6,006 (53) 7,308 13,373 (45)
+Revenues $ 12,734 $ 27,742 (54) $ 31,015 $ 53,402 (42)

@@ -1,0 +1,19 @@
+Year Ended
+December 31,
+2022
+December 25,
+2021
+(In millions)
+Net revenue:
+Data Center $ 6,043 $ 3,694
+Client 6,201 6,887
+Gaming 6,805 5,607
+Embedded 4,552 246
+Total net revenue $ 23,601 $ 16,434
+Operating income (loss):
+Data Center $ 1,848 $ 991
+Client 1,190 2,088
+Gaming 953 934
+Embedded 2,252 44
+All Other (4,979) (409)
+Total operating income (loss) $ 1,264 $ 3,648

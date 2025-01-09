@@ -1,0 +1,330 @@
+Table of Contents
+57
+ ADOBE SYSTEMS INCORPORATED
+ CONSOLIDATED BALANCE SHEETS
+(In thousands, except par value)
+ 
+December 1,
+2017
+December 2,
+2016
+ASSETS
+Current assets:
+ 
+ 
+Cash and cash equivalents
+$
+2,306,072
+$
+1,011,315
+Short-term investments
+3,513,702
+3,749,985
+Trade receivables, net of allowances for doubtful accounts of $9,151 and $6,214, respectively
+1,217,968
+833,033
+Prepaid expenses and other current assets
+210,071
+245,441
+Total current assets
+7,247,813
+5,839,774
+Property and equipment, net
+936,976
+816,264
+Goodwill
+5,821,561
+5,406,474
+Purchased and other intangibles, net
+385,658
+414,405
+Investment in lease receivable
+—
+80,439
+Other assets
+143,548
+139,890
+Total assets
+$
+14,535,556
+$
+12,697,246
+LIABILITIES AND STOCKHOLDERS’ EQUITY
+Current liabilities:
+ 
+ 
+Trade payables
+$
+113,538
+$
+88,024
+Accrued expenses
+993,773
+739,630
+Income taxes payable
+14,196
+38,362
+Deferred revenue
+2,405,950
+1,945,619
+Total current liabilities
+3,527,457
+2,811,635
+Long-term liabilities:
+Debt and capital lease obligations
+1,881,421
+1,892,200
+Deferred revenue
+88,592
+69,131
+Income taxes payable
+173,088
+184,381
+Deferred income taxes
+279,941
+217,660
+Other liabilities
+125,188
+97,404
+Total liabilities
+6,075,687
+5,272,411
+Commitments and contingencies
+Stockholders’ equity:
+ 
+ 
+Preferred stock, $0.0001 par value; 2,000 shares authorized; none issued
+—
+—
+Common stock, $0.0001 par value; 900,000 shares authorized; 600,834 shares issued; 
+  491,262 and 494,254 shares outstanding, respectively
+61
+61
+Additional paid-in-capital
+5,082,195
+4,616,331
+Retained earnings
+9,573,870
+8,114,517
+Accumulated other comprehensive income (loss)
+(111,821)
+(173,602)
+Treasury stock, at cost (109,572 and 106,580 shares, respectively), net of reissuances
+(6,084,436)
+(5,132,472)
+Total stockholders’ equity
+8,459,869
+7,424,835
+Total liabilities and stockholders’ equity
+$
+14,535,556
+$
+12,697,246
+See accompanying Notes to Consolidated Financial Statements.___FINANCEBENCH_DELIMITER___Table of Contents
+61
+ADOBE SYSTEMS INCORPORATED
+ CONSOLIDATED STATEMENTS OF CASH FLOWS
+(In thousands)
+ 
+Years Ended
+ 
+December 1,
+2017
+December 2,
+2016
+November 27,
+2015
+Cash flows from operating activities:
+ 
+ 
+Net income
+$
+1,693,954
+$
+1,168,782
+$
+629,551
+Adjustments to reconcile net income to net cash provided by operating activities:
+Depreciation, amortization and accretion
+325,997
+331,535
+339,473
+Stock-based compensation
+451,451
+349,912
+335,859
+Deferred income taxes
+51,605
+24,222
+(69,657)
+Gain on the sale of property
+—
+—
+(21,415)
+Unrealized (gains) losses on investments
+(5,494)
+3,145
+(9,210)
+Excess tax benefits from stock-based compensation
+—
+(75,105)
+(68,153)
+Other non-cash items
+4,625
+2,022
+1,216
+Changes in operating assets and liabilities, net of acquired assets and
+    assumed liabilities:
+Trade receivables, net
+(187,173)
+(160,416)
+(79,502)
+Prepaid expenses and other current assets
+28,040
+(71,021)
+(7,701)
+Trade payables
+(45,186)
+(6,281)
+22,870
+Accrued expenses
+154,125
+64,978
+(22,564)
+Income taxes payable
+(34,493)
+43,115
+97,934
+Deferred revenue
+475,402
+524,840
+320,801
+Net cash provided by operating activities
+2,912,853
+2,199,728
+1,469,502
+Cash flows from investing activities:
+ 
+ 
+Purchases of short-term investments
+(1,931,011)
+(2,285,222)
+(2,064,833)
+Maturities of short-term investments
+759,737
+769,228
+371,790
+Proceeds from sales of short-term investments
+1,393,929
+860,849
+1,176,476
+Acquisitions, net of cash acquired
+(459,626)
+(48,427)
+(826,004)
+Purchases of property and equipment
+(178,122)
+(203,805)
+(184,936)
+Proceeds from sale of property
+—
+—
+57,779
+Purchases of long-term investments, intangibles and other assets
+(29,918)
+(58,433)
+(22,779)
+Proceeds from sale of long-term investments
+2,134
+5,777
+4,149
+Net cash used for investing activities
+(442,877)
+(960,033)
+(1,488,358)
+Cash flows from financing activities:
+ 
+ 
+Purchases of treasury stock
+(1,100,000)
+(1,075,000)
+(625,000)
+Proceeds from issuance of treasury stock
+158,351
+145,697
+164,270
+Taxes paid related to net share settlement of equity awards
+(240,126)
+(236,400)
+(186,373)
+Excess tax benefits from stock-based compensation
+—
+75,105
+68,153
+Proceeds from debt issuance
+—
+—
+989,280
+Repayment of debt and capital lease obligations
+(1,960)
+(108)
+(602,189)
+Debt issuance costs
+—
+—
+(8,828)
+Net cash used for financing activities
+(1,183,735)
+(1,090,706)
+(200,687)
+Effect of foreign currency exchange rates on cash and cash equivalents
+8,516
+(14,234)
+(21,297)
+Net increase (decrease) in cash and cash equivalents
+1,294,757
+134,755
+(240,840)
+Cash and cash equivalents at beginning of year
+1,011,315
+876,560
+1,117,400
+Cash and cash equivalents at end of year
+$
+2,306,072
+$
+1,011,315
+$
+876,560
+Supplemental disclosures:
+ 
+Cash paid for income taxes, net of refunds
+$
+396,668
+$
+249,884
+$
+203,010
+Cash paid for interest
+$
+69,430
+$
+66,193
+$
+56,014
+Non-cash investing activities:
+Investment in lease receivable applied to building purchase
+$
+80,439
+$
+—
+$
+—
+Issuance of common stock and stock awards assumed in business acquisitions
+$
+10,348
+$
+—
+$
+677
+See accompanying Notes to Consolidated Financial Statements.

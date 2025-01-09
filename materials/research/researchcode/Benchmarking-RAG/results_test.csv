@@ -1,0 +1,22 @@
+doc_name,question,ref_answer,model_answer,cosine_similarity,bert_score,llm_eval
+3M_2018_10K,What is the FY2018 capital expenditure amount (in USD millions) for 3M? Give a response to the question by relying on the details shown in the cash flow statement.,$1577.00,"The FY2018 capital expenditure amount for 3M is not explicitly stated in the information provided. The information includes 2019 capital spending expectations and other financial metrics from 2018, but it does not specify the capital expenditure for 2018 in the cash flow statement. Further details from the cash flow statement are necessary to provide this information.",0.0,0.8090084791183472,0.0
+3M_2018_10K,Assume that you are a public equities analyst. Answer the following question by primarily using information that is shown in the balance sheet: what is the year end FY2018 net PPNE for 3M? Answer in USD billions.,$8.70,"To answer the question about the year-end FY2018 net Property, Plant and Equipment (PP&E) for 3M, we need to refer to the balance sheet provided in the 10-K document for the fiscal year ending in 2018.
+
+According to the balance sheet in the 10-K document for FY2018:
+
+- Net Property, Plant and Equipment (PP&E) at the end of FY2018 is listed as $8.745 billion USD.
+
+Therefore, the year-end FY2018 net PP&E for 3M is $8.745 billion USD.",0.0,0.7684701085090637,0.0
+3M_2022_10K,Is 3M a capital-intensive business based on FY2022 data?,"No, the company is managing its CAPEX and Fixed Assets pretty efficiently, which is evident from below key metrics:
+CAPEX/Revenue Ratio: 5.1%
+Fixed assets/Total Assets: 20%
+Return on Assets= 12.4%","Based on the provided context detailing expected capital spending of approximately $1.5 billion to $1.8 billion for 2023, it indicates that 3M is making significant investments in growth, productivity, and sustainability. Large capital expenditures of this nature typically suggest that 3M operates in a capital-intensive industry. However, for a comprehensive assessment, specific data from FY2022 on total revenues, capital expenditures, and other financial metrics would be needed.",0.08149298352996222,0.8367168307304382,0.4
+3M_2022_10K,"What drove operating margin change as of FY2022 for 3M? If operating margin is not a useful metric for a company like this, then please state that and explain why.","Operating Margin for 3M in FY2022 has decreased by 1.7% primarily due to: 
+-Decrease in gross Margin
+-mostly one-off charges including Combat Arms Earplugs litigation, impairment related to exiting PFAS manufacturing, costs related to exiting Russia and divestiture-related restructuring
+charges","Based on the information provided, the specific factors driving the change in operating margin for 3M as of FY2022 are not detailed. Analyzing operating margin is a useful metric because it indicates the proportion of revenue that remains after covering operating costs, which can provide insights into the company's operational efficiency.
+
+If the factors driving the change are detailed in the 10-K document, it would typically include elements like sales performance, changes in production costs, restructuring expenses, and other operational efficiencies or inefficiencies. 
+
+Without the detailed 10-K information, we cannot provide the precise drivers of the change in operating margin for 3M in FY2022. However, operating margin remains a useful measure for companies, including 3M, as it helps evaluate how well the company is managing its core business operations.",0.1380755870981437,0.824333131313324,0.0
+3M_2022_10K,"If we exclude the impact of M&A, which segment has dragged down 3M's overall growth in 2022?",The consumer segment shrunk by 0.9% organically.,"Based on the provided context, there isn't specific information directly pointing to which segment has dragged down 3M's overall growth in 2022, excluding the impact of M&A. For an accurate answer, you would typically need to review the detailed segment performance information in 3M's 10-K report where the individual performance of each business segment is discussed. This would include comparing the year-over-year performance and identifying any segment with significant declines.",0.20075764915010486,0.8134002685546875,0.5

@@ -1,0 +1,28 @@
+Note 2. Acquisitions, Divestitures, Equity-Method Investments, Licensing Arrangements and Collaborative
+Arrangements
+A. Acquisitions
+Trillium
+On November 17, 2021, we acquired all of the issued and outstanding common stock not already owned by Pfizer of Trillium, a clinical stage
+immuno-oncology company developing therapies targeting cancer immune evasion pathways and specific cell targeting approaches, for a
+price of $18.50 per share in cash, for total consideration of $2.0 billion, net of cash acquired. As a result, Trillium became our wholly owned
+subsidiary. We previously held a 2% ownership investment in Trillium. Trillium’s lead program, TTI-622, is an investigational fusion protein that
+is designed to block the inhibitory activity of CD47, a molecule that is overexpressed by a wide variety of tumors.
+We accounted for the transaction as an asset acquisition since the lead asset, TTI-622, represented substantially all of the fair value of the
+gross assets acquired, which exclude cash acquired. At the acquisition date, we recorded a $2.1 billion charge representing an acquired
+IPR&D asset with no alternative future use in Research and development expenses, of which the $2.0 billion net cash consideration is
+presented as a cash outflow from operating activities. In connection with this acquisition, we recorded $256 million of assets acquired primarily
+consisting of cash and investments. Liabilities assumed were approximately $81 million.
+Array
+On July 30, 2019, we acquired Array, a commercial stage biopharmaceutical company focused on the discovery, development and
+commercialization of targeted small molecule medicines to treat cancer and other diseases of high unmet need, for $48 per share in cash. The
+total fair value of the consideration transferred was $11.2 billion ($10.9 billion, net of cash acquired). In addition, $157 million in payments to
+Array employees for the fair value of previously unvested stock options was recognized as post-closing compensation expense and recorded
+in Restructuring charges and certain acquisition-related costs (see Note 3). We financed the majority of the transaction with debt and the
+balance with existing cash.___FINANCEBENCH_DELIMITER___Therachon
+On July 1, 2019, we acquired all the remaining shares of Therachon, a privately-held clinical-stage biotechnology company focused on rare
+diseases, with assets in development for the treatment of achondroplasia, a genetic condition and the most common form of short-limb
+dwarfism, for $340 million upfront, plus potential milestone payments of up to $470 million contingent on the achievement of key milestones in
+the development and commercialization of the lead asset. We accounted for the transaction as an asset acquisition since the lead asset
+represented substantially all the fair value of the gross assets acquired. The total fair value of the consideration transferred for Therachon was
+$322 million, which consisted of $317 million of cash and our previous $5 million investment in Therachon. In connection with this asset
+acquisition, we recorded a charge of $337 million in Research and development expenses.

@@ -1,0 +1,4 @@
+Milk - $4.50.
+Cheese - $6.25.
+Chocolate - $3.25.
+Coffee - $5.50.

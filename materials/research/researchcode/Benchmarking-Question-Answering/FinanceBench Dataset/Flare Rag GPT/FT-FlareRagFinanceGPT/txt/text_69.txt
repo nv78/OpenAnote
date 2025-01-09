@@ -1,0 +1,253 @@
+THE COCA-COLA COMPANY AND SUBSIDIARIES
+CONSOLIDATED STATEMENTS OF INCOME
+(In millions except per share data)
+Year Ended December 31,
+2022
+2021
+2020
+Net Operating Revenues
+$
+43,004 $
+38,655 $
+33,014 
+Cost of goods sold
+18,000 
+15,357 
+13,433 
+Gross Profit
+25,004 
+23,298 
+19,581 
+Selling, general and administrative expenses
+12,880 
+12,144 
+9,731 
+Other operating charges
+1,215 
+846 
+853 
+Operating Income
+10,909 
+10,308 
+8,997 
+Interest income
+449 
+276 
+370 
+Interest expense
+882 
+1,597 
+1,437 
+Equity income (loss) — net
+1,472 
+1,438 
+978 
+Other income (loss) — net
+(262)
+2,000 
+841 
+Income Before Income Taxes
+11,686 
+12,425 
+9,749 
+Income taxes
+2,115 
+2,621 
+1,981 
+Consolidated Net Income
+9,571 
+9,804 
+7,768 
+Less: Net income (loss) attributable to noncontrolling interests
+29 
+33 
+21 
+Net Income Attributable to Shareowners of The Coca-Cola Company
+$
+9,542 $
+9,771 $
+7,747 
+Basic Net Income Per Share
+$
+2.20 $
+2.26 $
+1.80 
+Diluted Net Income Per Share
+$
+2.19 $
+2.25 $
+1.79 
+Average Shares Outstanding — Basic
+4,328 
+4,315 
+4,295 
+Effect of dilutive securities
+22 
+25 
+28 
+Average Shares Outstanding — Diluted
+4,350 
+4,340 
+4,323 
+Calculated based on net income attributable to shareowners of The Coca-Cola Company.
+Refer to Notes to Consolidated Financial Statements.
+1
+1
+1 
+61___FINANCEBENCH_DELIMITER___THE COCA-COLA COMPANY AND SUBSIDIARIES
+CONSOLIDATED STATEMENTS OF CASH FLOWS
+(In millions)
+Year Ended December 31,
+2022
+2021
+2020
+Operating Activities
+ 
+ 
+Consolidated net income
+$
+9,571 $
+9,804 $
+7,768 
+Depreciation and amortization
+1,260 
+1,452 
+1,536 
+Stock-based compensation expense
+356 
+337 
+126 
+Deferred income taxes
+(122)
+894 
+(18)
+Equity (income) loss — net of dividends
+(838)
+(615)
+(511)
+Foreign currency adjustments
+203 
+86 
+(88)
+Significant (gains) losses — net
+(129)
+(1,365)
+(914)
+Other operating charges
+1,086 
+506 
+556 
+Other items
+236 
+201 
+699 
+Net change in operating assets and liabilities
+(605)
+1,325 
+690 
+Net Cash Provided by Operating Activities
+11,018 
+12,625 
+9,844 
+Investing Activities
+ 
+ 
+Purchases of investments
+(3,751)
+(6,030)
+(13,583)
+Proceeds from disposals of investments
+4,771 
+7,059 
+13,835 
+Acquisitions of businesses, equity method investments and nonmarketable securities
+(73)
+(4,766)
+(1,052)
+Proceeds from disposals of businesses, equity method investments and nonmarketable securities
+458 
+2,180 
+189 
+Purchases of property, plant and equipment
+(1,484)
+(1,367)
+(1,177)
+Proceeds from disposals of property, plant and equipment
+75 
+108 
+189 
+Collateral (paid) received associated with hedging activities — net
+(1,465)
+— 
+— 
+Other investing activities
+706 
+51 
+122 
+Net Cash Provided by (Used in) Investing Activities
+(763)
+(2,765)
+(1,477)
+Financing Activities
+ 
+ 
+Issuances of debt
+3,972 
+13,094 
+26,934 
+Payments of debt
+(4,930)
+(12,866)
+(28,796)
+Issuances of stock
+837 
+702 
+647 
+Purchases of stock for treasury
+(1,418)
+(111)
+(118)
+Dividends
+(7,616)
+(7,252)
+(7,047)
+Other financing activities
+(1,095)
+(353)
+310 
+Net Cash Provided by (Used in) Financing Activities
+(10,250)
+(6,786)
+(8,070)
+Effect of Exchange Rate Changes on Cash, Cash Equivalents, Restricted Cash and
+   Restricted Cash Equivalents
+(205)
+(159)
+76 
+Cash, Cash Equivalents, Restricted Cash and Restricted Cash Equivalents
+ 
+ 
+Net increase (decrease) in cash, cash equivalents, restricted cash and restricted cash
+   equivalents during the year
+(200)
+2,915 
+373 
+Cash, cash equivalents, restricted cash and restricted cash equivalents at beginning of year
+10,025 
+7,110 
+6,737 
+Cash, Cash Equivalents, Restricted Cash and Restricted Cash Equivalents at End of Year
+9,825 
+10,025 
+7,110 
+Less: Restricted cash and restricted cash equivalents at end of year
+306 
+341 
+315 
+Cash and Cash Equivalents at End of Year
+$
+9,519 $
+9,684 $
+6,795 
+Refer to Notes to Consolidated Financial Statements.
+64

@@ -1,0 +1,8 @@
+Overview
+We are a global semiconductor company primarily offering:
+• server microprocessors (CPUs) and graphics processing units (GPUs), data processing units (DPUs), Field Programmable Gate Arrays (FPGAs), and
+Adaptive System-on-Chip (SoC) products for data centers;
+• CPUs, accelerated processing units (APUs) that integrate CPUs and GPUs, and chipsets for desktop and notebook personal computers;
+• discrete GPUs, and semi-custom SoC products and development services; and
+• embedded CPUs, GPUs, APUs, FPGAs, and Adaptive SoC products.
+From time to time, we may also sell or license portions of our intellectual property (IP) portfolio.
