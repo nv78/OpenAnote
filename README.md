@@ -92,13 +92,13 @@ If the baseline zero shot results are good enough, you should be good to go. Oth
 
 Once baseline fine tuning results are established, label data to do Reinforcement Learning with Human Feedback (RLHF) to improve model performance. This process would explore various labeling strategies, including zero labels with programmatic labeling, all AI- or RLAIF-generated labels, synthetically generated labels, and datasets with N = 100, 200, 300, 400, or 500 manually labeled examples. To do the labeling, there is a 4 step process:
 
-**Upload** - Create a new text based dataset. This can be via Uploading Unstructured Data, Uploading a Structured Dataset, Connecting to Data Sources, Scraping Datasets from Websites, or Selecting your Dataset from Hugging Face Hub
+| **Step**      | **Description**                                                                                                                                                                           |
+|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Upload**    | Create a new text-based dataset. This can be done by uploading unstructured data, uploading a structured dataset, connecting to data sources, scraping datasets from websites, or selecting your dataset from the Hugging Face Hub. |
+| **Customize** | Choose your task type, such as Text Classification, Named Entity Recognition, or Question Answering. Add the categories, entities, or questions you care about, and insert labeling functions to include subject matter expertise.  |
+| **Annotate**  | Label a few of the categories, entities, or answers to questions, and mark important features. As you annotate a few edge cases, the model actively learns and improves from human feedback to accurately predict the rest of the labels. |
+| **Download**  | When finished labeling, download the resulting labels and predictions as a CSV or JSON. Export the updated model as an API endpoint to make real-time predictions on future rows of data.                                       |
 
-**Customize** - Choose your task type (Text Classification, Named Entity Recognition, Question Answering). Add the categories, entities, or questions you care about, and insert labeling functions to add subject matter expertise.
-
-**Annotate** - Label a few of the categories, entities, or answers to questions, and mark important features. As you annotate a few edge cases, the model actively learns and improves from human feedback to accurately predict the rest of the labels.
-
-**Download** - When finished labeling, download the resulting labels and predictions as a CSV or JSON. Export the updated model as an API endpoint to make real-time predictions on future rows of data.
 
 ![alt text](https://github.com/nv78/OpenAnote/blob/main/materials/images/Label.png?raw=true)
 
