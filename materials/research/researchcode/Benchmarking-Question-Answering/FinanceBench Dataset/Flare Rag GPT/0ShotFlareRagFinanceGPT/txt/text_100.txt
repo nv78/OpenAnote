@@ -1,0 +1,245 @@
+Table of Contents
+Lockheed Martin Corporation
+Consolidated Statements of Earnings
+(in millions, except per share data)
+ 
+ 
+Years Ended December 31,
+2020
+2019
+2018
+Net sales
+Products
+$
+54,928 
+$
+50,053 
+$
+45,005 
+Services
+10,470 
+9,759 
+8,757 
+Total net sales
+65,398 
+59,812 
+53,762 
+Cost of sales
+Products
+(48,996)
+(44,589)
+(40,293)
+Services
+(9,371)
+(8,731)
+(7,738)
+Severance charges
+(27)
+— 
+(96)
+Other unallocated, net
+1,650 
+1,875 
+1,639 
+Total cost of sales
+(56,744)
+(51,445)
+(46,488)
+Gross profit
+8,654 
+8,367 
+7,274 
+Other (expense) income, net
+(10)
+178 
+60 
+Operating profit
+8,644 
+8,545 
+7,334 
+Interest expense
+(591)
+(653)
+(668)
+Other non-operating income (expense), net
+182 
+(651)
+(828)
+Earnings from continuing operations before income taxes
+8,235 
+7,241 
+5,838 
+Income tax expense
+(1,347)
+(1,011)
+(792)
+Net earnings from continuing operations
+6,888 
+6,230 
+5,046 
+Net loss from discontinued operations
+(55)
+— 
+— 
+Net earnings
+$
+6,833 
+$
+6,230 
+$
+5,046 
+ 
+Earnings (loss) per common share
+Basic
+Continuing operations
+$
+24.60 
+$
+22.09 
+$
+17.74 
+Discontinued operations
+(0.20)
+— 
+— 
+Basic earnings per common share
+$
+24.40 
+$
+22.09 
+$
+17.74 
+Diluted
+Continuing operations
+$
+24.50 
+$
+21.95 
+$
+17.59 
+Discontinued operations
+(0.20)
+— 
+— 
+Diluted earnings per common share
+$
+24.30 
+$
+21.95 
+$
+17.59 
+The accompanying notes are an integral part of these consolidated financial statements.
+67___FINANCEBENCH_DELIMITER___Table of Contents
+Lockheed Martin Corporation
+Consolidated Balance Sheets
+(in millions, except par value)
+ 
+ 
+December 31,
+2020
+2019
+Assets
+Current assets
+Cash and cash equivalents
+$
+3,160 
+$
+1,514 
+Receivables, net
+1,978 
+2,337 
+Contract assets
+9,545 
+9,094 
+Inventories
+3,545 
+3,619 
+Other current assets
+1,150 
+531 
+Total current assets
+19,378 
+17,095 
+Property, plant and equipment, net
+7,213 
+6,591 
+Goodwill
+10,806 
+10,604 
+Intangible assets, net
+3,012 
+3,213 
+Deferred income taxes
+3,475 
+3,319 
+Other noncurrent assets
+6,826 
+6,706 
+Total assets
+$
+50,710 
+$
+47,528 
+Liabilities and equity
+Current liabilities
+Accounts payable
+$
+880 
+$
+1,281 
+Contract liabilities
+7,545 
+7,054 
+Salaries, benefits and payroll taxes
+3,163 
+2,466 
+Current maturities of long-term debt
+500 
+1,250 
+Other current liabilities
+1,845 
+1,921 
+Total current liabilities
+13,933 
+13,972 
+Long-term debt, net
+11,669 
+11,404 
+Accrued pension liabilities
+12,874 
+13,234 
+Other noncurrent liabilities
+6,196 
+5,747 
+Total liabilities
+44,672 
+44,357 
+Stockholders’ equity
+Common stock, $1 par value per share
+279 
+280 
+Additional paid-in capital
+221 
+— 
+Retained earnings
+21,636 
+18,401 
+Accumulated other comprehensive loss
+(16,121)
+(15,554)
+Total stockholders’ equity
+6,015 
+3,127 
+Noncontrolling interests in subsidiary
+23 
+44 
+Total equity
+6,038 
+3,171 
+Total liabilities and equity
+$
+50,710 
+$
+47,528 
+The accompanying notes are an integral part of these consolidated financial statements.
+69

@@ -1,0 +1,136 @@
+SQUARE,�INC.
+CONSOLIDATED�BALANCE�SHEETS
+(In thousands, except share and per share data)
+ 
+December�31,
+ 
+2016
+ 
+2015
+Assets
+ 
+   
+Current assets:
+ 
+   
+Cash and cash equivalents
+$
+452,030   $
+461,329
+Short-term investments
+59,901  
+—
+Restricted cash
+22,131  
+13,537
+Settlements receivable
+321,102  
+142,727
+Customer funds held
+43,574  
+9,446
+Loans held for sale
+42,144  
+604
+Merchant cash advance receivable, net
+4,212  
+36,473
+Other current assets
+56,331  
+41,447
+Total current assets
+1,001,425  
+705,563
+Property and equipment, net
+88,328  
+87,222
+Goodwill
+57,173  
+56,699
+Acquired intangible assets, net
+19,292  
+26,776
+Long-term investments
+27,366  
+—
+Restricted cash
+14,584  
+14,686
+Other assets
+3,194  
+3,826
+Total assets
+$
+1,211,362   $
+894,772
+Liabilities�and�Stockholders’�Equity
+ 
+   
+Current liabilities:
+ 
+   
+Accounts payable
+$
+12,602   $
+18,869
+Customers payable
+388,058  
+215,365
+Customer funds obligation
+43,574  
+9,446
+Accrued transaction losses
+20,064  
+17,176
+Accrued expenses
+39,543  
+44,401
+Other current liabilities
+73,623  
+28,945
+Total current liabilities
+577,464  
+334,202
+Debt (Note 11)
+—  
+—
+Other liabilities
+57,745  
+52,522
+Total liabilities
+635,209  
+386,724
+Commitments and contingencies (Note 16)
+ 
+Stockholders’ equity:
+   
+Preferred stock, $0.0000001 par value: 100,000,000 shares authorized at December 31, 2016 and December 31, 2015. None
+issued and outstanding at December 31, 2016 and December 31, 2015.
+—  
+—
+Class A common stock, $0.0000001 par value: 1,000,000,000 shares authorized at December 31, 2016 and December 31, 2015;
+198,746,620 and 31,717,133 issued and outstanding at December 31, 2016 and December 31, 2015, respectively.
+—  
+—
+Class B common stock, $0.0000001 par value: 500,000,000 shares authorized at December 31, 2016 and December 31, 2015;
+165,800,756 and 303,232,312 issued and outstanding at December 31, 2016 and December 31, 2015, respectively.
+—  
+—
+Additional paid-in capital
+1,357,381  
+1,116,882
+Accumulated other comprehensive loss
+(1,989)  
+(1,185)
+Accumulated deficit
+(779,239)  
+(607,649)
+Total stockholders’ equity
+576,153  
+508,048
+Total liabilities and stockholders’ equity
+$
+1,211,362   $
+894,772
+See accompanying notes to consolidated financial statements.
+68

@@ -1,0 +1,204 @@
+SQUARE, INC.
+CONSOLIDATED STATEMENTS OF CASH FLOWS
+(In thousands)
+Year Ended December 31,
+2020
+2019
+2018
+Cash flows from operating activities:
+Net income (loss)
+$
+213,105 
+$
+375,446 
+$
+(38,453)
+Adjustments to reconcile net loss to net cash provided by operating activities:
+Depreciation and amortization
+84,212 
+75,598 
+60,961 
+Non-cash interest and other
+76,129 
+33,478 
+28,512 
+Loss on extinguishment of long-term debt
+6,651 
+— 
+5,047 
+Non-cash lease expense
+70,253 
+29,696 
+— 
+Share-based compensation
+397,800 
+297,863 
+216,881 
+Replacement stock awards issued in connection with acquisition
+— 
+— 
+899 
+Gain on sale of asset group
+— 
+(373,445)
+— 
+Loss (gain) on revaluation of equity investment
+(295,297)
+12,326 
+(20,342)
+Transaction and loan losses
+177,670 
+126,959 
+88,077 
+Change in deferred income taxes
+(8,016)
+(1,376)
+(646)
+Changes in operating assets and liabilities:
+Settlements receivable
+(473,871)
+(248,271)
+245,795 
+Customer funds
+(1,151,536)
+(204,208)
+(131,004)
+Purchase of loans held for sale
+(1,837,137)
+(2,266,738)
+(1,609,611)
+Sales and principal payments of loans held for sale
+1,505,406 
+2,168,682 
+1,579,834 
+Customers payable
+1,733,138 
+523,795 
+15,597 
+Settlements payable
+143,528 
+41,697 
+(60,651)
+Charge-offs to accrued transaction losses
+(73,613)
+(78,325)
+(58,192)
+Other assets and liabilities
+(186,819)
+(47,478)
+(27,624)
+Net cash provided by operating activities
+381,603 
+465,699 
+295,080 
+Cash flows from investing activities:
+Purchase of marketable debt securities
+(1,322,362)
+(992,583)
+(1,000,346)
+Proceeds from maturities of marketable debt securities
+607,134 
+430,888 
+197,454 
+Proceeds from sale of marketable debt securities
+585,427 
+548,619 
+171,992 
+Purchase of marketable debt securities from customer funds
+(642,252)
+(311,499)
+(148,096)
+Proceeds from maturities of marketable debt securities from customer funds
+382,887 
+158,055 
+— 
+Proceeds from sale of marketable debt securities from customer funds
+51,430 
+17,493 
+48,334 
+Purchase of property and equipment
+(138,402)
+(62,498)
+(61,203)
+Purchase of other investments
+(51,277)
+(15,250)
+— 
+Proceeds from sale of equity investment
+— 
+33,016 
+— 
+Purchase of intangible assets
+— 
+— 
+(1,584)
+Proceeds from sale of asset group
+— 
+309,324 
+— 
+Business combinations, net of cash acquired
+(79,221)
+(20,372)
+(112,399)
+Net cash provided by (used in) investing activities:
+(606,636)
+95,193 
+(905,848)
+Cash flows from financing activities:
+Proceeds from issuance of convertible senior notes, net
+2,116,544 
+— 
+855,663 
+Purchase of convertible senior note hedges
+(338,145)
+— 
+(172,586)
+Proceeds from issuance of warrants
+232,095 
+— 
+112,125 
+Principal payment on conversion of senior notes
+— 
+— 
+(219,384)
+Proceeds from PPP Liquidity Facility advances
+464,094 
+— 
+— 
+Proceeds from the exercise of stock options and purchases under the employee stock purchase plan, net
+161,985 
+118,514 
+133,850 
+Payments for tax withholding related to vesting of restricted stock units
+(314,019)
+(212,264)
+(189,124)
+Other financing activities
+(7,359)
+(5,124)
+(4,789)
+Net cash provided by (used in) financing activities
+2,315,195 
+(98,874)
+515,755 
+Effect of foreign exchange rate on cash and cash equivalents
+12,995 
+3,841 
+(7,221)
+Net increase (decrease) in cash, cash equivalents and restricted cash
+2,103,157 
+465,859 
+(102,234)
+Cash, cash equivalents and restricted cash, beginning of the year
+1,098,706 
+632,847 
+735,081 
+Cash, cash equivalents and restricted cash, end of the year
+$
+3,201,863 
+$
+1,098,706 
+$
+632,847 
+See accompanying notes to consolidated financial statements.
+89

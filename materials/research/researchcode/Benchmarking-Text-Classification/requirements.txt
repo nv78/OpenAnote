@@ -1,0 +1,14 @@
+python==3.10.13
+openai
+numpy
+pandas
+datasets
+scikit-learn
+matplotlib
+torch
+ipywidgets
+seaborn
+transformers
+scikit-learn
+tensorflow
+anthropic

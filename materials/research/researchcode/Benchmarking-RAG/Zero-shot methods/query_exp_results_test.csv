@@ -1,0 +1,14 @@
+doc_name,question,ref_answer,model_answer,cosine_similarity,bert_score,llm_eval
+3M_2018_10K,What is the FY2018 capital expenditure amount (in USD millions) for 3M? Give a response to the question by relying on the details shown in the cash flow statement.,$1577.00,"Based on the provided details from the 10-K document, the capital expenditure amount for 3M in FY2018 is not explicitly stated in the provided excerpts. The text refers to the ""Cash Flows from Investing Activities"" section for details about capital spending on property, plant, and equipment, but this specific amount is not given in the text you have shared.
+
+To find the exact FY2018 capital expenditure amount, you would need to refer to the full ""Cash Flows from Investing Activities"" section of the 10-K document.",0.0,0.7885661125183105,0.0
+3M_2018_10K,Assume that you are a public equities analyst. Answer the following question by primarily using information that is shown in the balance sheet: what is the year end FY2018 net PPNE for 3M? Answer in USD billions.,$8.70,"The year-end FY2018 net PPNE (Property, Plant, and Equipment - Net) for 3M is $8.7 billion.",0.0,0.7788904905319214,1.0
+3M_2022_10K,Is 3M a capital-intensive business based on FY2022 data?,"No, the company is managing its CAPEX and Fixed Assets pretty efficiently, which is evident from below key metrics:
+CAPEX/Revenue Ratio: 5.1%
+Fixed assets/Total Assets: 20%
+Return on Assets= 12.4%","Based on the FY2022 data, it appears that 3M is a capital-intensive business. The company expects to spend a substantial amount on capital expenditures, with an anticipated range of $1.5 billion to $1.8 billion for 2023. This level of investment indicates significant capital allocation towards growth, productivity, and sustainability, reflecting the capital-intensive nature of the business.",0.0829675097323875,0.8475704193115234,0.0
+3M_2022_10K,"What drove operating margin change as of FY2022 for 3M? If operating margin is not a useful metric for a company like this, then please state that and explain why.","Operating Margin for 3M in FY2022 has decreased by 1.7% primarily due to: 
+-Decrease in gross Margin
+-mostly one-off charges including Combat Arms Earplugs litigation, impairment related to exiting PFAS manufacturing, costs related to exiting Russia and divestiture-related restructuring
+charges","The operating income margin for 3M decreased year-on-year for FY2022 primarily due to increases in raw materials, logistics, and outsourced hardgoods manufacturing costs.",0.2873267056381591,0.8794618248939514,0.0
+3M_2022_10K,"If we exclude the impact of M&A, which segment has dragged down 3M's overall growth in 2022?",The consumer segment shrunk by 0.9% organically.,"In 2022, **4%""",0.0,0.8135181665420532,0.0

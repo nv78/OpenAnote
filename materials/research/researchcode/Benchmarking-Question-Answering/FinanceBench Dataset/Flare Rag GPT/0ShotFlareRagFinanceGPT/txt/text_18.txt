@@ -1,0 +1,236 @@
+Table of Contents
+AMAZON.COM, INC.
+CONSOLIDATED STATEMENTS OF OPERATIONS
+(in millions, except per share data)
+ 
+   
+Year Ended December 31,
+ 
+2015
+ 
+2016
+ 
+2017
+Net product sales
+$
+79,268  $
+94,665  $
+118,573
+Net service sales
+27,738  
+41,322  
+59,293
+Total net sales
+107,006  
+135,987  
+177,866
+Operating expenses:
+ 
+  
+  
+Cost of sales
+71,651  
+88,265  
+111,934
+Fulfillment
+13,410  
+17,619  
+25,249
+Marketing
+5,254  
+7,233  
+10,069
+Technology and content
+12,540  
+16,085  
+22,620
+General and administrative
+1,747  
+2,432  
+3,674
+Other operating expense, net
+171  
+167  
+214
+Total operating expenses
+104,773  
+131,801  
+173,760
+Operating income
+2,233  
+4,186  
+4,106
+Interest income
+50  
+100  
+202
+Interest expense
+(459)  
+(484)  
+(848)
+Other income (expense), net
+(256)  
+90  
+346
+Total non-operating income (expense)
+(665)  
+(294)  
+(300)
+Income before income taxes
+1,568  
+3,892  
+3,806
+Provision for income taxes
+(950)  
+(1,425)  
+(769)
+Equity-method investment activity, net of tax
+(22)  
+(96)  
+(4)
+Net income
+$
+596  $
+2,371  $
+3,033
+Basic earnings per share
+$
+1.28  $
+5.01  $
+6.32
+Diluted earnings per share
+$
+1.25  $
+4.90  $
+6.15
+Weighted-average shares used in computation of earnings per share:
+ 
+  
+  
+Basic
+467  
+474  
+480
+Diluted
+477  
+484  
+493
+See accompanying notes to consolidated financial statements.
+38___FINANCEBENCH_DELIMITER___Table of Contents
+AMAZON.COM, INC.
+CONSOLIDATED BALANCE SHEETS
+(in millions, except per share data)
+ 
+ 
+December 31,
+ 
+2016
+ 
+2017
+ASSETS
+ 
+  
+Current assets:
+ 
+  
+Cash and cash equivalents
+$
+19,334  $
+20,522
+Marketable securities
+6,647  
+10,464
+Inventories
+11,461  
+16,047
+Accounts receivable, net and other
+8,339  
+13,164
+Total current assets
+45,781  
+60,197
+Property and equipment, net
+29,114  
+48,866
+Goodwill
+3,784  
+13,350
+Other assets
+4,723  
+8,897
+Total assets
+$
+83,402  $
+131,310
+LIABILITIES AND STOCKHOLDERS’ EQUITY
+ 
+  
+Current liabilities:
+ 
+  
+Accounts payable
+$
+25,309  $
+34,616
+Accrued expenses and other
+13,739  
+18,170
+Unearned revenue
+4,768  
+5,097
+Total current liabilities
+43,816  
+57,883
+Long-term debt
+7,694  
+24,743
+Other long-term liabilities
+12,607  
+20,975
+Commitments and contingencies (Note 7)
+ 
+Stockholders’ equity:
+ 
+  
+Preferred stock, $0.01 par value:
+ 
+  
+Authorized shares — 500
+ 
+  
+Issued and outstanding shares — none
+—  
+—
+Common stock, $0.01 par value:
+ 
+  
+Authorized shares — 5,000
+ 
+  
+Issued shares — 500 and 507
+ 
+  
+Outstanding shares — 477 and 484
+5  
+5
+Treasury stock, at cost
+(1,837)  
+(1,837)
+Additional paid-in capital
+17,186  
+21,389
+Accumulated other comprehensive loss
+(985)  
+(484)
+Retained earnings
+4,916  
+8,636
+Total stockholders’ equity
+19,285  
+27,709
+Total liabilities and stockholders’ equity
+$
+83,402  $
+131,310
+See accompanying notes to consolidated financial statements.
+40

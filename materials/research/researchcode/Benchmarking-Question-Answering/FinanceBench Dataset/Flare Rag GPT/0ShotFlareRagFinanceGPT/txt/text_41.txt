@@ -1,0 +1,43 @@
+CONSOLIDATED STATEMENTS OF INCOME
+Year Ended December 31 (Millions, except per share amounts) 2022 2021 2020
+Revenues
+Non-interest revenues
+Discount revenue $ 30,739 $ 24,563 $ 19,435
+Net card fees 6,070 5,195 4,664
+Service fees and other revenue 4,521 3,316 2,702
+Processed revenue 1,637 1,556 1,301
+Total non-interest revenues 42,967 34,630 28,102
+Interest income
+Interest on loans 11,967 8,850 9,779
+Interest and dividends on investment securities 96 83 127
+Deposits with banks and other 595 100 177
+Total interest income 12,658 9,033 10,083
+Interest expense
+Deposits 1,527 458 943
+Long-term debt and other 1,236 825 1,155
+Total interest expense 2,763 1,283 2,098
+Net interest income 9,895 7,750 7,985
+Total revenues net of interest expense 52,862 42,380 36,087
+Provisions for credit losses
+Card Member receivables 627 (73) 1,015
+Card Member loans 1,514 (1,155) 3,453
+Other 41 (191) 262
+Total provisions for credit losses 2,182 (1,419) 4,730
+Total revenues net of interest expense after provisions for credit losses 50,680 43,799 31,357
+Expenses
+Card Member rewards 14,002 11,007 8,041
+Business development 4,943 3,762 3,051
+Card Member services 2,959 1,993 1,230
+Marketing 5,458 5,291 3,696
+Salaries and employee benefits 7,252 6,240 5,718
+Other, net 6,481 4,817 5,325
+Total expenses 41,095 33,110 27,061
+Pretax income 9,585 10,689 4,296
+Income tax provision 2,071 2,629 1,161
+Net income $ 7,514 $ 8,060 $ 3,135
+Earnings per Common Share — (Note 21)
+Basic $ 9.86 $ 10.04 $ 3.77
+Diluted $ 9.85 $ 10.02 $ 3.77
+Average common shares outstanding for earnings per common share:
+Basic 751 789 805
+Diluted 752 790 806
