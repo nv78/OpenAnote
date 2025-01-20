@@ -72,14 +72,13 @@ For each of these task types, we maintain curated benchmark datasets that we mea
 If you prefer automation or command-line workflows, you can submit via our API:
 
 1. **Install the `anoteai` Package**  
-   ``` python
-   pip install anoteai
-   ```
-Obtain an API Key
+``` python
+pip install anoteai
+```
 
-Sign in to Anote Dashboard.
-Go to your account settings or project settings to find or generate your personal API key.
-Initialize the API Client
+Obtain an API Key by signing into the Anote Dashboard. Go to your account settings or project settings to find or generate your personal API key.
+
+### Initialize the API Client
 
 ```python
 from anoteai import Anote
@@ -96,7 +95,7 @@ Using your own model, produce outputs for each query in the evaluation set. Form
 
 ### Submit Predictions
 
-```python
+``` python
 # Example: posting model outputs (pseudo-code)
 submission_response = anote_client.submit_predictions(
     dataset_id="DATASET_ID",
@@ -123,7 +122,7 @@ Check the “Model Leaderboard” or “Evaluation Results” tab within our web
 
 ### Via the API
 
-`` python
+``` python
 results = anote_client.get_leaderboard(dataset_id="DATASET_ID")
 for entry in results["models"]:
     print(entry["rank"], entry["model"], entry["score"])
