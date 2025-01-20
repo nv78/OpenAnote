@@ -129,6 +129,4 @@ for entry in results["models"]:
 ```
 Feel free to share your success on social media or in our Slack community once your model is on the leaderboard!
 
-For guidelines on contributing code to OpenAnote, please see our CODEBASE_SETUP.md, NAVIGATING_ANOTE_CODEBASE.md, and CONTRIBUTION_GUIDELINES.md. If you have any questions, drop them in our Slack channel or email us.
-
-Thank you for helping build a more transparent and powerful LLM community. We look forward to seeing your model on the leaderboard!
+For guidelines on contributing code to OpenAnote, please see our ```CODEBASE_SETUP.md```, ```NAVIGATING_ANOTE_CODEBASE.md```, and ```CONTRIBUTION_GUIDELINES.md```. If you have any questions, drop them in our Slack channel or email us. Thank you for helping build a more transparent and powerful LLM community. We look forward to seeing your model on the leaderboard!
