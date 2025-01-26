@@ -1,73 +1,67 @@
-# Submitting Your Model to the OpenAnote Leaderboard
+# Submitting Your Model to the Leaderboard
 
-Welcome to **Anote**—we are an AI startup based in New York City, dedicated to making AI accessible for everyone. Our free and open-sourced platform, **OpenAnote**, is an MLOps solution that helps you:
+Welcome to Anote! Anote is an AI startup based in New York City, dedicated to making AI accessible to everyone. The **Model Leaderboard** is a place to showcase and compare results of various AI models. When you submit your model, it will be evaluated on our benchmark datasets and added to the leaderboard, allowing you to see how it stacks up against others.
 
-- Label and prepare data for Large Language Models (LLMs).  
-- Fine-tune LLMs on domain-specific data (using supervised, unsupervised, or RLHF approaches).
-- Evaluate zero-shot performance of LLMs like GPT, Claude, Llama3, Mistral, and more.  
-
-The **Model Leaderboard** is where we showcase and compare results for various LLMs. If you’ve improved an LLM or built a new one, this README will guide you through submitting it to our leaderboard so the community can see how your model stacks up!
-
----
+This README will guide you through downloading benchmark datasets, filling out the submission form, and completing the process to have your results added to the leaderboard.
 
 ## Table of Contents
+- [What is the Model Leaderboard?](#what-is-the-model-leaderboard)
+- [Prerequisites](#prerequisites)
+- [Supported Task Types](#supported-task-types)
+- [Submission Workflow](#submission-workflow)
+- [Viewing Results](#viewing-results)
 
-1. [Prerequisites](#prerequisites)  
-2. [Task Types We Support](#task-types-we-support)  
-3. [Submit via the OpenAnote UI](#submit-via-the-openanote-ui)  
-4. [Submit via the Anote API](#submit-via-the-anote-api)  
-5. [Viewing Results](#viewing-results)  
+## What is the Model Leaderboard?
 
----
+The **Model Leaderboard** allows researchers, developers, and organizations to showcase the performance of their AI models. We support multiple task types such as classification and question answering. By submitting your model, you contribute to transparency and progress in AI research.
 
-## 1. Prerequisites
+- **Evaluation Process**: We will score your model using our curated benchmark datasets.
+- **Timeline**: Results will be added to the leaderboard within 2-3 business days.
+- **Confirmation**: Email [nvidra@anote.ai](mailto:nvidra@anote.ai) for confirmation of your submission.
 
-- **Create an Anote Account**  
-Head to [https://dashboard.anote.ai/](https://dashboard.anote.ai/) to sign up or log in. You will gain access to your personal workspace and can create an API key.
+## Prerequisites
 
-We only require the outputs your model generates for each query in our evaluation set. You can use our API / SDK, or can leverage a custom LLM for fine tuning.
+### Create an Anote Account
+- Visit [https://dashboard.anote.ai](https://dashboard.anote.ai) to sign up or log in.
+- Once logged in, generate an API key via your account settings to enable API-based submissions.
 
-If you need help obtaining our benchmark data or have questions about which benchmark suits your task, reach out to us at [nvidra@anote.ai](mailto:nvidra@anote.ai).
+### Model Output Requirements
+- Ensure your model generates predictions for our benchmark evaluation set.
+- Supported formats include JSON or CSV.
 
----
+### Download Benchmark Dataset
+- Navigate to the **Submit to Model Leaderboard** page.
+- Select the appropriate benchmark dataset for your task type.
+- Email us if you have any questions about the datasets.
 
-## 2. Task Types We Support
+## Supported Task Types
 
-OpenAnote currently supports:
+The Anote Model Leaderboard currently supports:
+- **Text Classification**
+- **Named Entity Recognition (NER)**
+- **Chatbot (Document-Level Q&A)**
+- **Prompting (Line-Level Q&A)**
 
-1. **Text Classification**  
-2. **Named Entity Recognition (NER)**  
-3. **Chatbot (Question Answering Across All Documents)**  
-4. **Prompting (Question Answering Per Document)**  
+Each task has curated benchmark datasets to evaluate your model's performance.
 
-For each of these task types, we maintain curated benchmark datasets that we measure on our model leaderboard.
+## Submission Workflow
 
----
-
-## 3. Submit via the OpenAnote UI
+### Submitting via the UI
 
 1. **Navigate to Submission Page**  
-   Click the [Submit to Model Leaderboard](https://anote.ai/leaderboard) button here, and sign into Anote. This will navigate you to the `/submittoleaderboard` page.
+   - Go to `/submittoleaderboard` on the Anote platform.
+   - Download the benchmark dataset and fill out the required fields.
 
-2. **Select a Benchmark Dataset**  
-   - If you’re using an existing benchmark dataset, simply select it from the “Datasets” section.
-   - Input the relevant fields on the form.  
+2. **Submit Outputs**  
+   - Generate predictions for the evaluation set and upload the results.
+   - Fill out the fields in the submission form
+   - Ensure that the benchmark dataset name matches the provided dataset.
 
-3. **Upload Your Model Outputs**  
-   - Download our evaluation set from the UI, or email us for direct access if needed.  
-   - Generate predictions or responses for each query in the set.  
-   - Upload these predictions (as a CSV file).  
-
-5. **Confirm and Submit**  
-   - Verify that your submission is tied to the correct dataset.  
-   - Click “Submit” or “Upload Outputs” to send your predictions to our scoring pipeline.
-
-6. **Wait for Evaluation**  
-   Our system will process and score your model in a few business days. We’ll notify you once it’s complete.
-
----
-
-## 4. Submit via the Anote API
+3. **Confirmation**  
+   - Click \"Submit\" and email [nvidra@anote.ai](mailto:nvidra@anote.ai) for confirmation.
+   - We will add your model to the leaderboard within 2-3 business days.
+<!--
+## Submit via the Anote API
 
 If you prefer automation or command-line workflows, you can submit via our API:
 
@@ -113,13 +107,13 @@ status_response = anote_client.get_submission_status(submission_response["submis
 print(status_response)
 # You will see whether your submission is “Processing,” “Complete,” or if there were errors.
 ```
-
-## 5. Viewing Results
+-->
+## Viewing Results
 After your submission has been processed, you can view your results:
 
 ### In the UI
-Check the “Model Leaderboard” or “Evaluation Results” tab within our website in a few business days. If requested via email, your model’s score and rank will appear alongside other submissions.
-
+Check the “Model Leaderboard” tab within our website in a few business days. If requested via email, your model’s score and rank will appear alongside other submissions.
+<!--
 ### Via the API
 
 ``` python
@@ -127,6 +121,7 @@ results = anote_client.get_leaderboard(dataset_id="DATASET_ID")
 for entry in results["models"]:
     print(entry["rank"], entry["model"], entry["score"])
 ```
+-->
 Feel free to share your success on social media or in our Slack community once your model is on the leaderboard!
 
 For guidelines on contributing code to OpenAnote, please see our ```CODEBASE_SETUP.md```, ```NAVIGATING_ANOTE_CODEBASE.md```, and ```CONTRIBUTION_GUIDELINES.md```. If you have any questions, drop them in our Slack channel or email us. Thank you for helping build a more transparent and powerful LLM community. We look forward to seeing your model on the leaderboard!
