@@ -1,6 +1,6 @@
 # Anote
 
-[Anote](https://anote.ai/) is an artificial intelligence startup in New York City, helping make AI more accessible. We are releasing **OpenAnote**, an open sourced baseline version of the Anote Product that is free to use.
+[Anote](https://anote.ai/) is an artificial intelligence startup in New York City, helping make AI more accessible. We are releasing **OpenAnote**, a baseline version of the Anote Product that is free to use.
 
 ### What is OpenAnote?
 
