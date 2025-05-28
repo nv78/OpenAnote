@@ -48,7 +48,7 @@ From there, click on the top right nav to create a project. A project is a team 
 
 ### 2. Define Training and Testing Datasets
 
-Choose ground truth testing data data that your team would like to measure model performance on, or select one of our benchmark test datasets. 
+Choose ground truth testing data that your team would like to measure model performance on, or select one of our benchmark test datasets. 
 
 ![alt text](https://github.com/nv78/OpenAnote/blob/main/materials/images/benchmark.png?raw=true)
 
