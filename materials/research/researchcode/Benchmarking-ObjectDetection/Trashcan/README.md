@@ -8,8 +8,7 @@ TrashCan 1.0 is an instance-segmentation labeled dataset of trash observations, 
 
 - **Images:** Photographs containing various types of trash in different environments.
 - **Annotations:** Instance segmentation masks and class labels for each trash object.
-- **Format:** All data is under [datafiles directory](materials\research\researchcode\Benchmarking-ObjectDetection\Trashcan\datafiles) split into training, validation, and test sets. All the images are in their respective directories, and annotations are provided in the CSV files (metadata.csv) with columns for image ID, bounding box coordinates, and class labels.
-- **Original Annotations:** The original annotations are provided in the [original_annotations directory](materials\research\researchcode\Benchmarking-ObjectDetection\Trashcan\original_annotations), which includes the original annotations in their original format.
+- **Link to HuggingFace Repository:** The dataset is available on HuggingFace at [anyaeross/TrashCan](https://huggingface.co/datasets/anyaeross/trashcan1).
 - **Link to Original Dataset:** The original dataset can be accessed from the [Data Repository for the University of Minnesota](https://conservancy.umn.edu/items/6dd6a960-c44a-4510-a679-efb8c82ebfb7).
 
 ## Citation

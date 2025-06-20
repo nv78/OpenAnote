@@ -8,8 +8,7 @@ FIAR1M is a large-scale dataset designed for object detection tasks in aerial im
 
 - **Images:** High-resolution aerial images.
 - **Annotations:** Bounding box annotations for multiple object categories.
-- **Format:** All data is under [datafiles directory](materials\research\researchcode\Benchmarking-ObjectDetection\FIAR1M\datafiles) split into training, validation, and test sets. All the images are in their respective directories, and annotations are provided in the CSV files (metadata.csv) with columns for image ID, bounding box coordinates, and class labels.
-- **Original Annotations:** The original annotations are provided in the [original_annotations directory](materials\research\researchcode\Benchmarking-ObjectDetection\FIAR1M\original_annotations), which includes the original annotations in their original format.
+- **Link to HuggingFace Repository:** The dataset is available on HuggingFace at [anyaeross/FIAR1M](https://huggingface.co/datasets/anyaeross/FAIR1M).
 - **Link to Original Dataset:** The original dataset can be accessed from the [FAIR1M HuggingFace repository](https://huggingface.co/datasets/blanchon/FAIR1M).
 
 ## Citation
