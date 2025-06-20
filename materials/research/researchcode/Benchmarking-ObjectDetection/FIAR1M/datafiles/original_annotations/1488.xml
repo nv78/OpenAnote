@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotation>
+	<source>
+		<filename>1488.tif</filename>
+		<origin>GF2/GF3</origin>
+	</source>
+	<research>
+		<version>1.0</version>
+		<provider>FAIR1M</provider>
+		<author>Cyber</author>
+		<pluginname>FAIR1M</pluginname>
+		<pluginclass>object detection</pluginclass>
+		<time>2021-03</time>
+	</research>
+	<size>
+		<width>1000</width>
+		<height>1000</height>
+		<depth>3</depth>
+	</size>
+	<objects>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Van</name>
+			</possibleresult>
+			<points>
+				<point>636.500061,912.500122</point>
+				<point>631.000061,918.000122</point>
+				<point>619.000061,906.000122</point>
+				<point>624.500061,900.500122</point>
+				<point>636.500061,912.500122</point>
+			</points>
+		</object>
+	</objects>
+</annotation>

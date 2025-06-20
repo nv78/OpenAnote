@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotation>
+	<source>
+		<filename>37.tif</filename>
+		<origin>GF2/GF3</origin>
+	</source>
+	<research>
+		<version>1.0</version>
+		<provider>FAIR1M</provider>
+		<author>Cyber</author>
+		<pluginname>FAIR1M</pluginname>
+		<pluginclass>object detection</pluginclass>
+		<time>2021-03</time>
+	</research>
+	<size>
+		<width>1000</width>
+		<height>1000</height>
+		<depth>3</depth>
+	</size>
+	<objects>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Baseball Field</name>
+			</possibleresult>
+			<points>
+				<point>826.270630,332.891052</point>
+				<point>667.000000,397.000000</point>
+				<point>616.729370,272.108948</point>
+				<point>776.000000,208.000000</point>
+				<point>826.270630,332.891052</point>
+			</points>
+		</object>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Cargo Truck</name>
+			</possibleresult>
+			<points>
+				<point>619.123047,980.215393</point>
+				<point>609.000000,986.000061</point>
+				<point>596.876953,964.784729</point>
+				<point>607.000000,959.000061</point>
+				<point>619.123047,980.215393</point>
+			</points>
+		</object>
+	</objects>
+</annotation>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotation>
+	<source>
+		<filename>4.tif</filename>
+		<origin>GF2/GF3</origin>
+	</source>
+	<research>
+		<version>1.0</version>
+		<provider>FAIR1M</provider>
+		<author>Cyber</author>
+		<pluginname>FAIR1M</pluginname>
+		<pluginclass>object detection</pluginclass>
+		<time>2021-03</time>
+	</research>
+	<size>
+		<width>1000</width>
+		<height>1000</height>
+		<depth>3</depth>
+	</size>
+	<objects>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Boeing737</name>
+			</possibleresult>
+			<points>
+				<point>283.000000,447.000000</point>
+				<point>234.000000,458.000000</point>
+				<point>245.000000,509.000000</point>
+				<point>295.000000,498.000000</point>
+				<point>283.000000,447.000000</point>
+			</points>
+		</object>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Boeing737</name>
+			</possibleresult>
+			<points>
+				<point>950.000000,281.000000</point>
+				<point>921.000000,317.000000</point>
+				<point>956.000000,345.000000</point>
+				<point>985.000000,309.000000</point>
+				<point>950.000000,281.000000</point>
+			</points>
+		</object>
+	</objects>
+</annotation>

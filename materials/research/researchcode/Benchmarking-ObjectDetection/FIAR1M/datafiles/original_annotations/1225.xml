@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotation>
+	<source>
+		<filename>1225.tif</filename>
+		<origin>GF2/GF3</origin>
+	</source>
+	<research>
+		<version>1.0</version>
+		<provider>FAIR1M</provider>
+		<author>Cyber</author>
+		<pluginname>FAIR1M</pluginname>
+		<pluginclass>object detection</pluginclass>
+		<time>2021-03</time>
+	</research>
+	<size>
+		<width>1000</width>
+		<height>1000</height>
+		<depth>3</depth>
+	</size>
+	<objects>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Cargo Truck</name>
+			</possibleresult>
+			<points>
+				<point>65.000000,395.000000</point>
+				<point>43.967316,403.922974</point>
+				<point>15.967317,337.922974</point>
+				<point>37.000000,329.000000</point>
+				<point>65.000000,395.000000</point>
+			</points>
+		</object>
+	</objects>
+</annotation>

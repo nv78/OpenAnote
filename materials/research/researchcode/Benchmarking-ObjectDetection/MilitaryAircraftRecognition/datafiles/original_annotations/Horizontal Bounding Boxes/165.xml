@@ -1,0 +1,30 @@
+<annotation>
+	<filename>165.xml</filename>
+	<source>
+		<database>MAR20</database>
+	</source>
+	<size>
+		<width>733</width>
+		<height>733</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>A19</name>
+		<bndbox>
+			<xmin>45</xmin>
+			<ymin>278</ymin>
+			<xmax>116</xmax>
+			<ymax>361</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>A19</name>
+		<bndbox>
+			<xmin>551</xmin>
+			<ymin>293</ymin>
+			<xmax>640</xmax>
+			<ymax>364</ymax>
+		</bndbox>
+	</object>
+</annotation>

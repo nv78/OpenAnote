@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotation>
+	<source>
+		<filename>1379.tif</filename>
+		<origin>GF2/GF3</origin>
+	</source>
+	<research>
+		<version>1.0</version>
+		<provider>FAIR1M</provider>
+		<author>Cyber</author>
+		<pluginname>FAIR1M</pluginname>
+		<pluginclass>object detection</pluginclass>
+		<time>2021-03</time>
+	</research>
+	<size>
+		<width>1500</width>
+		<height>1500</height>
+		<depth>3</depth>
+	</size>
+	<objects>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Fishing Boat</name>
+			</possibleresult>
+			<points>
+				<point>3.000000,487.000000</point>
+				<point>25.000000,593.000000</point>
+				<point>61.000000,585.000000</point>
+				<point>39.000000,480.000000</point>
+				<point>3.000000,487.000000</point>
+			</points>
+		</object>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Fishing Boat</name>
+			</possibleresult>
+			<points>
+				<point>381.000000,463.000000</point>
+				<point>462.000000,501.000000</point>
+				<point>472.000000,479.000000</point>
+				<point>391.000000,442.000000</point>
+				<point>381.000000,463.000000</point>
+			</points>
+		</object>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Fishing Boat</name>
+			</possibleresult>
+			<points>
+				<point>268.000000,851.000000</point>
+				<point>336.000000,945.000000</point>
+				<point>356.000000,930.000000</point>
+				<point>287.000000,836.000000</point>
+				<point>268.000000,851.000000</point>
+			</points>
+		</object>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>other-ship</name>
+			</possibleresult>
+			<points>
+				<point>516.000000,1448.000000</point>
+				<point>538.000000,1490.000000</point>
+				<point>555.000000,1481.000000</point>
+				<point>533.000000,1439.000000</point>
+				<point>516.000000,1448.000000</point>
+			</points>
+		</object>
+	</objects>
+</annotation>

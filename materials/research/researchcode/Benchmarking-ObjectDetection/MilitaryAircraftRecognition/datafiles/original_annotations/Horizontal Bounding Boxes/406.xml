@@ -1,0 +1,30 @@
+<annotation>
+	<filename>406.xml</filename>
+	<source>
+		<database>MAR20</database>
+	</source>
+	<size>
+		<width>702</width>
+		<height>657</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>A9</name>
+		<bndbox>
+			<xmin>265</xmin>
+			<ymin>180</ymin>
+			<xmax>435</xmax>
+			<ymax>331</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>A9</name>
+		<bndbox>
+			<xmin>260</xmin>
+			<ymin>347</ymin>
+			<xmax>434</xmax>
+			<ymax>502</ymax>
+		</bndbox>
+	</object>
+</annotation>

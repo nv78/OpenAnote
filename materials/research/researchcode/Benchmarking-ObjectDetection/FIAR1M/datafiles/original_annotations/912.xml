@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotation>
+	<source>
+		<filename>912.tif</filename>
+		<origin>GF2/GF3</origin>
+	</source>
+	<research>
+		<version>1.0</version>
+		<provider>FAIR1M</provider>
+		<author>Cyber</author>
+		<pluginname>FAIR1M</pluginname>
+		<pluginclass>object detection</pluginclass>
+		<time>2021-03</time>
+	</research>
+	<size>
+		<width>1000</width>
+		<height>1000</height>
+		<depth>3</depth>
+	</size>
+	<objects>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Small Car</name>
+			</possibleresult>
+			<points>
+				<point>981.692139,150.538483</point>
+				<point>972.692139,156.538483</point>
+				<point>960.999878,139.000031</point>
+				<point>969.999878,133.000031</point>
+				<point>981.692139,150.538483</point>
+			</points>
+		</object>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Small Car</name>
+			</possibleresult>
+			<points>
+				<point>962.000000,706.000000</point>
+				<point>949.000000,706.000000</point>
+				<point>949.000000,686.000000</point>
+				<point>962.000000,686.000000</point>
+				<point>962.000000,706.000000</point>
+			</points>
+		</object>
+	</objects>
+</annotation>

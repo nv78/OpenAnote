@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotation>
+	<source>
+		<filename>1672.tif</filename>
+		<origin>GF2/GF3</origin>
+	</source>
+	<research>
+		<version>1.0</version>
+		<provider>FAIR1M</provider>
+		<author>Cyber</author>
+		<pluginname>FAIR1M</pluginname>
+		<pluginclass>object detection</pluginclass>
+		<time>2021-03</time>
+	</research>
+	<size>
+		<width>1500</width>
+		<height>1500</height>
+		<depth>3</depth>
+	</size>
+	<objects>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Motorboat</name>
+			</possibleresult>
+			<points>
+				<point>-33.000000,563.000000</point>
+				<point>541.000000,774.000000</point>
+				<point>563.000000,713.000000</point>
+				<point>-11.000000,503.000000</point>
+				<point>-33.000000,563.000000</point>
+			</points>
+		</object>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Motorboat</name>
+			</possibleresult>
+			<points>
+				<point>870.000000,1209.000000</point>
+				<point>869.000000,713.000000</point>
+				<point>778.000000,713.000000</point>
+				<point>778.000000,1209.000000</point>
+				<point>870.000000,1209.000000</point>
+			</points>
+		</object>
+	</objects>
+</annotation>

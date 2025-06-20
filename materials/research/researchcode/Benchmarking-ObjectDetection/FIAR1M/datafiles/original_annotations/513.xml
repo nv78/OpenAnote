@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotation>
+	<source>
+		<filename>513.tif</filename>
+		<origin>GF2/GF3</origin>
+	</source>
+	<research>
+		<version>1.0</version>
+		<provider>FAIR1M</provider>
+		<author>Cyber</author>
+		<pluginname>FAIR1M</pluginname>
+		<pluginclass>object detection</pluginclass>
+		<time>2021-03</time>
+	</research>
+	<size>
+		<width>1500</width>
+		<height>1500</height>
+		<depth>3</depth>
+	</size>
+	<objects>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Liquid Cargo Ship</name>
+			</possibleresult>
+			<points>
+				<point>278.000000,86.000000</point>
+				<point>233.000000,177.000000</point>
+				<point>247.000000,184.000000</point>
+				<point>292.000000,93.000000</point>
+				<point>278.000000,86.000000</point>
+			</points>
+		</object>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Motorboat</name>
+			</possibleresult>
+			<points>
+				<point>456.000000,1181.000000</point>
+				<point>444.000000,1197.000000</point>
+				<point>447.000000,1200.000000</point>
+				<point>459.000000,1183.000000</point>
+				<point>456.000000,1181.000000</point>
+			</points>
+		</object>
+	</objects>
+</annotation>

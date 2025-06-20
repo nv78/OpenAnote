@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Unknown</folder>
+	<filename>1889.jpg</filename>
+	<path>Unknown</path>
+	<source>
+		<database>MAR20</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>800</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>A16</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>505</xmin>
+			<ymin>415</ymin>
+			<xmax>587</xmax>
+			<ymax>531</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,21 @@
+<annotation>
+	<filename>194.xml</filename>
+	<source>
+		<database>MAR20</database>
+	</source>
+	<size>
+		<width>736</width>
+		<height>736</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>A12</name>
+		<bndbox>
+			<xmin>245</xmin>
+			<ymin>336</ymin>
+			<xmax>375</xmax>
+			<ymax>433</ymax>
+		</bndbox>
+	</object>
+</annotation>

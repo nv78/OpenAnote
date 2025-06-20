@@ -1,0 +1,30 @@
+<annotation>
+	<filename>494.xml</filename>
+	<source>
+		<database>MAR20</database>
+	</source>
+	<size>
+		<width>841</width>
+		<height>776</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>A3</name>
+		<bndbox>
+			<xmin>662</xmin>
+			<ymin>335</ymin>
+			<xmax>754</xmax>
+			<ymax>422</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>A3</name>
+		<bndbox>
+			<xmin>73</xmin>
+			<ymin>217</ymin>
+			<xmax>166</xmax>
+			<ymax>307</ymax>
+		</bndbox>
+	</object>
+</annotation>

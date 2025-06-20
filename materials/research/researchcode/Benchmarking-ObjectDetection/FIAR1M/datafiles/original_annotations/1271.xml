@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotation>
+	<source>
+		<filename>1271.tif</filename>
+		<origin>GF2/GF3</origin>
+	</source>
+	<research>
+		<version>1.0</version>
+		<provider>FAIR1M</provider>
+		<author>Cyber</author>
+		<pluginname>FAIR1M</pluginname>
+		<pluginclass>object detection</pluginclass>
+		<time>2021-03</time>
+	</research>
+	<size>
+		<width>1500</width>
+		<height>1500</height>
+		<depth>3</depth>
+	</size>
+	<objects>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Passenger Ship</name>
+			</possibleresult>
+			<points>
+				<point>607.000000,121.000000</point>
+				<point>599.000000,65.000000</point>
+				<point>580.000000,67.000000</point>
+				<point>587.000000,123.000000</point>
+				<point>607.000000,121.000000</point>
+			</points>
+		</object>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Dry Cargo Ship</name>
+			</possibleresult>
+			<points>
+				<point>606.000000,972.000000</point>
+				<point>606.000000,892.000000</point>
+				<point>583.000000,892.000000</point>
+				<point>583.000000,972.000000</point>
+				<point>606.000000,972.000000</point>
+			</points>
+		</object>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Fishing Boat</name>
+			</possibleresult>
+			<points>
+				<point>51.000000,871.000000</point>
+				<point>54.000000,909.000000</point>
+				<point>72.000000,908.000000</point>
+				<point>70.000000,870.000000</point>
+				<point>51.000000,871.000000</point>
+			</points>
+		</object>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Dry Cargo Ship</name>
+			</possibleresult>
+			<points>
+				<point>582.000000,806.000000</point>
+				<point>584.000000,889.000000</point>
+				<point>608.000000,888.000000</point>
+				<point>606.000000,805.000000</point>
+				<point>582.000000,806.000000</point>
+			</points>
+		</object>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Tugboat</name>
+			</possibleresult>
+			<points>
+				<point>580.000000,770.000000</point>
+				<point>581.000000,805.000000</point>
+				<point>605.000000,804.000000</point>
+				<point>603.000000,768.000000</point>
+				<point>580.000000,770.000000</point>
+			</points>
+		</object>
+	</objects>
+</annotation>

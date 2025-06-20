@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotation>
+	<source>
+		<filename>1242.tif</filename>
+		<origin>GF2/GF3</origin>
+	</source>
+	<research>
+		<version>1.0</version>
+		<provider>FAIR1M</provider>
+		<author>Cyber</author>
+		<pluginname>FAIR1M</pluginname>
+		<pluginclass>object detection</pluginclass>
+		<time>2021-03</time>
+	</research>
+	<size>
+		<width>1500</width>
+		<height>1500</height>
+		<depth>3</depth>
+	</size>
+	<objects>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Tugboat</name>
+			</possibleresult>
+			<points>
+				<point>844.000000,185.000000</point>
+				<point>877.000000,125.000000</point>
+				<point>854.000000,112.000000</point>
+				<point>820.000000,172.000000</point>
+				<point>844.000000,185.000000</point>
+			</points>
+		</object>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Motorboat</name>
+			</possibleresult>
+			<points>
+				<point>637.000000,958.000000</point>
+				<point>650.000000,927.000000</point>
+				<point>639.000000,922.000000</point>
+				<point>626.000000,953.000000</point>
+				<point>637.000000,958.000000</point>
+			</points>
+		</object>
+	</objects>
+</annotation>

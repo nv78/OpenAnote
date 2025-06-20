@@ -1,0 +1,21 @@
+<annotation>
+	<filename>339.xml</filename>
+	<source>
+		<database>MAR20</database>
+	</source>
+	<size>
+		<width>720</width>
+		<height>698</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>A3</name>
+		<bndbox>
+			<xmin>115</xmin>
+			<ymin>245</ymin>
+			<xmax>326</xmax>
+			<ymax>456</ymax>
+		</bndbox>
+	</object>
+</annotation>

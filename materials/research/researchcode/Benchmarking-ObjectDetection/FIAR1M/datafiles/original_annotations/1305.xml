@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotation>
+	<source>
+		<filename>1305.tif</filename>
+		<origin>GF2/GF3</origin>
+	</source>
+	<research>
+		<version>1.0</version>
+		<provider>FAIR1M</provider>
+		<author>Cyber</author>
+		<pluginname>FAIR1M</pluginname>
+		<pluginclass>object detection</pluginclass>
+		<time>2021-03</time>
+	</research>
+	<size>
+		<width>1500</width>
+		<height>1500</height>
+		<depth>3</depth>
+	</size>
+	<objects>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Fishing Boat</name>
+			</possibleresult>
+			<points>
+				<point>1187.000000,-1.000000</point>
+				<point>1180.000000,103.000000</point>
+				<point>1210.000000,105.000000</point>
+				<point>1217.000000,1.000000</point>
+				<point>1187.000000,-1.000000</point>
+			</points>
+		</object>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Fishing Boat</name>
+			</possibleresult>
+			<points>
+				<point>915.000000,594.000000</point>
+				<point>930.000000,706.000000</point>
+				<point>964.000000,702.000000</point>
+				<point>948.000000,589.000000</point>
+				<point>915.000000,594.000000</point>
+			</points>
+		</object>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Fishing Boat</name>
+			</possibleresult>
+			<points>
+				<point>1303.000000,487.000000</point>
+				<point>1325.000000,593.000000</point>
+				<point>1361.000000,585.000000</point>
+				<point>1339.000000,480.000000</point>
+				<point>1303.000000,487.000000</point>
+			</points>
+		</object>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Fishing Boat</name>
+			</possibleresult>
+			<points>
+				<point>1167.000000,982.000000</point>
+				<point>1183.000000,1054.000000</point>
+				<point>1203.000000,1049.000000</point>
+				<point>1188.000000,978.000000</point>
+				<point>1167.000000,982.000000</point>
+			</points>
+		</object>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Fishing Boat</name>
+			</possibleresult>
+			<points>
+				<point>833.000000,1039.000000</point>
+				<point>858.000000,1145.000000</point>
+				<point>894.000000,1137.000000</point>
+				<point>869.000000,1031.000000</point>
+				<point>833.000000,1039.000000</point>
+			</points>
+		</object>
+	</objects>
+</annotation>

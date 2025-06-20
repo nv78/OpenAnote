@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotation>
+	<source>
+		<filename>1314.tif</filename>
+		<origin>GF2/GF3</origin>
+	</source>
+	<research>
+		<version>1.0</version>
+		<provider>FAIR1M</provider>
+		<author>Cyber</author>
+		<pluginname>FAIR1M</pluginname>
+		<pluginclass>object detection</pluginclass>
+		<time>2021-03</time>
+	</research>
+	<size>
+		<width>1000</width>
+		<height>1000</height>
+		<depth>3</depth>
+	</size>
+	<objects>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Small Car</name>
+			</possibleresult>
+			<points>
+				<point>615.000000,146.999969</point>
+				<point>610.692261,153.461517</point>
+				<point>598.692261,145.461517</point>
+				<point>603.000000,138.999969</point>
+				<point>615.000000,146.999969</point>
+			</points>
+		</object>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Dump Truck</name>
+			</possibleresult>
+			<points>
+				<point>630.000000,171.999985</point>
+				<point>624.194092,181.123520</point>
+				<point>602.000000,166.999985</point>
+				<point>607.805908,157.876450</point>
+				<point>630.000000,171.999985</point>
+			</points>
+		</object>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Bridge</name>
+			</possibleresult>
+			<points>
+				<point>653.000000,422.000000</point>
+				<point>624.100342,427.524902</point>
+				<point>559.000000,86.999985</point>
+				<point>587.899658,81.475067</point>
+				<point>653.000000,422.000000</point>
+			</points>
+		</object>
+	</objects>
+</annotation>

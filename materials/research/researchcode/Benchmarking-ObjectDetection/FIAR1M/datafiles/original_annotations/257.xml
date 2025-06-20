@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotation>
+	<source>
+		<filename>257.tif</filename>
+		<origin>GF2/GF3</origin>
+	</source>
+	<research>
+		<version>1.0</version>
+		<provider>FAIR1M</provider>
+		<author>Cyber</author>
+		<pluginname>FAIR1M</pluginname>
+		<pluginclass>object detection</pluginclass>
+		<time>2021-03</time>
+	</research>
+	<size>
+		<width>1000</width>
+		<height>1000</height>
+		<depth>3</depth>
+	</size>
+	<objects>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Cargo Truck</name>
+			</possibleresult>
+			<points>
+				<point>48.835049,282.371155</point>
+				<point>44.999996,291.000000</point>
+				<point>0.000000,271.000000</point>
+				<point>3.835052,262.371155</point>
+				<point>48.835049,282.371155</point>
+			</points>
+		</object>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Cargo Truck</name>
+			</possibleresult>
+			<points>
+				<point>40.205479,292.452026</point>
+				<point>36.876713,301.328735</point>
+				<point>0.000004,287.500000</point>
+				<point>-0.000000,277.375000</point>
+				<point>40.205479,292.452026</point>
+			</points>
+		</object>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Cargo Truck</name>
+			</possibleresult>
+			<points>
+				<point>26.685076,303.289856</point>
+				<point>23.000006,312.000000</point>
+				<point>0.000000,302.269226</point>
+				<point>0.000000,292.000000</point>
+				<point>26.685076,303.289856</point>
+			</points>
+		</object>
+	</objects>
+</annotation>

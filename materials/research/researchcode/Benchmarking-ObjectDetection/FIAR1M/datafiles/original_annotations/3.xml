@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotation>
+	<source>
+		<filename>3.tif</filename>
+		<origin>GF2/GF3</origin>
+	</source>
+	<research>
+		<version>1.0</version>
+		<provider>FAIR1M</provider>
+		<author>Cyber</author>
+		<pluginname>FAIR1M</pluginname>
+		<pluginclass>object detection</pluginclass>
+		<time>2021-03</time>
+	</research>
+	<size>
+		<width>1000</width>
+		<height>1000</height>
+		<depth>3</depth>
+	</size>
+	<objects>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Baseball Field</name>
+			</possibleresult>
+			<points>
+				<point>750.001160,864.980713</point>
+				<point>743.946472,968.919312</point>
+				<point>606.945374,960.938599</point>
+				<point>613.000061,857.000000</point>
+				<point>750.001160,864.980713</point>
+			</points>
+		</object>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Baseball Field</name>
+			</possibleresult>
+			<points>
+				<point>1000.000000,988.499939</point>
+				<point>935.000000,983.999939</point>
+				<point>942.272705,878.949646</point>
+				<point>1007.272705,883.449646</point>
+				<point>1000.000000,988.499939</point>
+			</points>
+		</object>
+	</objects>
+</annotation>

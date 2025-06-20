@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotation>
+	<source>
+		<filename>639.tif</filename>
+		<origin>GF2/GF3</origin>
+	</source>
+	<research>
+		<version>1.0</version>
+		<provider>FAIR1M</provider>
+		<author>Cyber</author>
+		<pluginname>FAIR1M</pluginname>
+		<pluginclass>object detection</pluginclass>
+		<time>2021-03</time>
+	</research>
+	<size>
+		<width>1000</width>
+		<height>1000</height>
+		<depth>3</depth>
+	</size>
+	<objects>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Baseball Field</name>
+			</possibleresult>
+			<points>
+				<point>524.000000,199.999985</point>
+				<point>406.933960,287.049072</point>
+				<point>337.000000,192.999985</point>
+				<point>454.066040,105.950897</point>
+				<point>524.000000,199.999985</point>
+			</points>
+		</object>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Baseball Field</name>
+			</possibleresult>
+			<points>
+				<point>957.010498,333.993225</point>
+				<point>823.000000,421.000061</point>
+				<point>748.989502,307.006897</point>
+				<point>883.000000,220.000061</point>
+				<point>957.010498,333.993225</point>
+			</points>
+		</object>
+		<object>
+			<coordinate>pixel</coordinate>
+			<type>rectangle</type>
+			<description>None</description>
+			<possibleresult>
+				<name>Bridge</name>
+			</possibleresult>
+			<points>
+				<point>139.078186,495.709106</point>
+				<point>89.000015,682.000000</point>
+				<point>78.921844,679.290771</point>
+				<point>129.000015,492.999878</point>
+				<point>139.078186,495.709106</point>
+			</points>
+		</object>
+	</objects>
+</annotation>

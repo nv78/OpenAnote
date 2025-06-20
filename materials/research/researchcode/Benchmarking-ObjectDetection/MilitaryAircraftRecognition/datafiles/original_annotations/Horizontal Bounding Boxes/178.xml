@@ -1,0 +1,21 @@
+<annotation>
+	<filename>178.xml</filename>
+	<source>
+		<database>MAR20</database>
+	</source>
+	<size>
+		<width>732</width>
+		<height>732</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>A6</name>
+		<bndbox>
+			<xmin>236</xmin>
+			<ymin>282</ymin>
+			<xmax>458</xmax>
+			<ymax>511</ymax>
+		</bndbox>
+	</object>
+</annotation>
