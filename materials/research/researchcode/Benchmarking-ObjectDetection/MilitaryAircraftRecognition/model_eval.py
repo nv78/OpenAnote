@@ -1,463 +1,187 @@
 import json
 import numpy as np
-import pandas as pd
-from collections import defaultdict, Counter
-from PIL import Image
+from collections import defaultdict
+from sklearn.metrics import confusion_matrix
 import matplotlib.pyplot as plt
 import seaborn as sns
-from sklearn.metrics import confusion_matrix, classification_report
-import warnings
-warnings.filterwarnings('ignore')
 
 class ObjectDetectionEvaluator:
     def __init__(self, iou_threshold=0.5, confidence_threshold=0.0):
-        """
-        Initialize evaluator with IoU and confidence thresholds.
-        
-        Args:
-            iou_threshold (float): IoU threshold for considering a detection as correct
-            confidence_threshold (float): Confidence threshold for filtering predictions
-        """
         self.iou_threshold = iou_threshold
         self.confidence_threshold = confidence_threshold
-        
+
     def calculate_iou(self, box1, box2):
-        """
-        Calculate IoU between two bounding boxes.
-        
-        Args:
-            box1, box2: dict with keys 'x_min', 'y_min', 'x_max', 'y_max'
-        
-        Returns:
-            float: IoU value
-        """
-        # Extract coordinates
-        x1_min, y1_min, x1_max, y1_max = box1['x_min'], box1['y_min'], box1['x_max'], box1['y_max']
-        x2_min, y2_min, x2_max, y2_max = box2['x_min'], box2['y_min'], box2['x_max'], box2['y_max']
-        
-        # Calculate intersection
+        x1_min, y1_min, x1_max, y1_max = box1
+        x2_min, y2_min, x2_max, y2_max = box2
+
         inter_x_min = max(x1_min, x2_min)
         inter_y_min = max(y1_min, y2_min)
         inter_x_max = min(x1_max, x2_max)
         inter_y_max = min(y1_max, y2_max)
-        
+
         if inter_x_max <= inter_x_min or inter_y_max <= inter_y_min:
             return 0.0
-        
+
         intersection = (inter_x_max - inter_x_min) * (inter_y_max - inter_y_min)
-        
-        # Calculate union
         area1 = (x1_max - x1_min) * (y1_max - y1_min)
         area2 = (x2_max - x2_min) * (y2_max - y2_min)
         union = area1 + area2 - intersection
-        
+
         return intersection / union if union > 0 else 0.0
-    
-    def match_detections(self, gt_data, pred_data):
-        """
-        Match ground truth and prediction data for the same images.
-        
-        Args:
-            gt_data (list): Ground truth data
-            pred_data (list): Prediction data
-        
-        Returns:
-            dict: Matched data organized by image
-        """
-        matched_data = {}
-        
-        # For dataset format, we'll use index as image identifier
-        # In practice, you might want to use image filename or hash
-        for i, (gt_item, pred_item) in enumerate(zip(gt_data, pred_data)):
-            image_id = f"image_{i}"
-            
-            # For datasets, we can also use image properties as identifier
-            # This is more robust if images have consistent properties
-            try:
-                if hasattr(gt_item.get('image'), 'size'):
-                    img_size = gt_item['image'].size
-                    image_id = f"image_{i}_{img_size[0]}x{img_size[1]}"
-            except:
-                image_id = f"image_{i}"
-            
-            if image_id not in matched_data:
-                matched_data[image_id] = {'gt': [], 'pred': []}
-            
-            matched_data[image_id]['gt'].append({
-                'label': gt_item['label'],
-                'x_min': gt_item['x_min'],
-                'y_min': gt_item['y_min'],
-                'x_max': gt_item['x_max'],
-                'y_max': gt_item['y_max']
-            })
-            
-            matched_data[image_id]['pred'].append({
-                'label': pred_item['label'],
-                'x_min': pred_item['x_min'],
-                'y_min': pred_item['y_min'],
-                'x_max': pred_item['x_max'],
-                'y_max': pred_item['y_max'],
-                'confidence': pred_item.get('confidence', 1.0)  # Default confidence if not provided
-            })
-        
-        return matched_data
-    
-    def evaluate_detection(self, gt_boxes, pred_boxes):
-        """
-        Evaluate detections for a single image.
-        
-        Args:
-            gt_boxes (list): Ground truth boxes
-            pred_boxes (list): Predicted boxes
-        
-        Returns:
-            dict: Evaluation results
-        """
-        # Filter predictions by confidence
-        pred_boxes = [box for box in pred_boxes if box.get('confidence', 1.0) >= self.confidence_threshold]
-        
-        # Sort predictions by confidence (highest first)
-        pred_boxes = sorted(pred_boxes, key=lambda x: x.get('confidence', 1.0), reverse=True)
-        
-        num_gt = len(gt_boxes)
-        num_pred = len(pred_boxes)
-        
-        if num_gt == 0 and num_pred == 0:
-            return {'tp': 0, 'fp': 0, 'fn': 0, 'ious': [], 'matched_pairs': []}
-        
-        if num_gt == 0:
-            return {'tp': 0, 'fp': num_pred, 'fn': 0, 'ious': [], 'matched_pairs': []}
-        
-        if num_pred == 0:
-            return {'tp': 0, 'fp': 0, 'fn': num_gt, 'ious': [], 'matched_pairs': []}
-        
-        # Calculate IoU matrix
-        iou_matrix = np.zeros((num_pred, num_gt))
-        for i, pred_box in enumerate(pred_boxes):
-            for j, gt_box in enumerate(gt_boxes):
-                if pred_box['label'] == gt_box['label']:  # Only match same class
-                    iou_matrix[i, j] = self.calculate_iou(pred_box, gt_box)
-        
-        # Match predictions to ground truth using greedy matching
+
+    def prepare_data(self, raw_data, is_prediction=False):
+        parsed = defaultdict(list)
+        for entry in raw_data:
+            img_id = entry['id']
+            labels = entry['label']
+            boxes = entry['boxes']
+            scores = entry.get('scores', [1.0] * len(boxes))
+
+            for i in range(len(boxes)):
+                item = {
+                    'label': labels[i],
+                    'box': boxes[i],
+                }
+                if is_prediction:
+                    item['confidence'] = scores[i]
+                parsed[img_id].append(item)
+        return parsed
+
+    def evaluate_image(self, gt_items, pred_items):
+        pred_items = [p for p in pred_items if p['confidence'] >= self.confidence_threshold]
+        pred_items.sort(key=lambda x: x['confidence'], reverse=True)
+
+        iou_matrix = np.zeros((len(pred_items), len(gt_items)))
+        for i, pred in enumerate(pred_items):
+            for j, gt in enumerate(gt_items):
+                if pred['label'] == gt['label']:
+                    iou_matrix[i, j] = self.calculate_iou(pred['box'], gt['box'])
+
         matched_gt = set()
         matched_pred = set()
         matched_pairs = []
-        tp = 0
-        
-        for i in range(num_pred):
+
+        for i in range(len(pred_items)):
             best_iou = 0
             best_gt_idx = -1
-            
-            for j in range(num_gt):
+            for j in range(len(gt_items)):
                 if j not in matched_gt and iou_matrix[i, j] > best_iou:
                     best_iou = iou_matrix[i, j]
                     best_gt_idx = j
-            
             if best_iou >= self.iou_threshold and best_gt_idx != -1:
-                tp += 1
                 matched_gt.add(best_gt_idx)
                 matched_pred.add(i)
                 matched_pairs.append((i, best_gt_idx, best_iou))
-        
-        fp = num_pred - tp
-        fn = num_gt - tp
-        
-        all_ious = iou_matrix[iou_matrix > 0].flatten()
-        
-        return {
-            'tp': tp,
-            'fp': fp,
-            'fn': fn,
-            'ious': all_ious.tolist(),
-            'matched_pairs': matched_pairs
-        }
-    
-    def calculate_metrics(self, gt_data, pred_data):
-        """
-        Calculate all evaluation metrics.
-        
-        Args:
-            gt_data (list): Ground truth data
-            pred_data (list): Prediction data
-        
-        Returns:
-            dict: All calculated metrics
-        """
-        matched_data = self.match_detections(gt_data, pred_data)
-        
-        # Initialize counters
-        total_tp = 0
-        total_fp = 0
-        total_fn = 0
+
+        tp = len(matched_pairs)
+        fp = len(pred_items) - tp
+        fn = len(gt_items) - tp
+        all_ious = [pair[2] for pair in matched_pairs]
+
+        return tp, fp, fn, matched_pairs, all_ious
+
+    def evaluate(self, gt_raw, pred_raw):
+        gt_data = self.prepare_data(gt_raw, is_prediction=False)
+        pred_data = self.prepare_data(pred_raw, is_prediction=True)
+
+        total_tp = total_fp = total_fn = 0
         all_ious = []
-        
-        # Class-wise metrics
         class_metrics = defaultdict(lambda: {'tp': 0, 'fp': 0, 'fn': 0})
-        
-        # For confusion matrix
-        y_true = []
-        y_pred = []
-        
-        # Process each image
-        for image_id, data in matched_data.items():
-            gt_boxes = data['gt']
-            pred_boxes = data['pred']
-            
-            result = self.evaluate_detection(gt_boxes, pred_boxes)
-            
-            total_tp += result['tp']
-            total_fp += result['fp']
-            total_fn += result['fn']
-            all_ious.extend(result['ious'])
-            
-            # Update class-wise metrics
-            gt_labels = [box['label'] for box in gt_boxes]
-            pred_labels = [box['label'] for box in pred_boxes]
-            
-            # For matched pairs, both are correct
-            for pred_idx, gt_idx, iou in result['matched_pairs']:
-                class_metrics[gt_boxes[gt_idx]['label']]['tp'] += 1
-                y_true.append(gt_boxes[gt_idx]['label'])
-                y_pred.append(pred_boxes[pred_idx]['label'])
-            
-            # Unmatched predictions are false positives
-            matched_pred_indices = {pair[0] for pair in result['matched_pairs']}
-            for i, pred_box in enumerate(pred_boxes):
-                if i not in matched_pred_indices:
-                    class_metrics[pred_box['label']]['fp'] += 1
-                    y_pred.append(pred_box['label'])
-                    # For confusion matrix, we need a corresponding true label
-                    # We'll use 'background' or the most frequent class as approximation
+        y_true, y_pred = [], []
+
+        for img_id in gt_data:
+            gt_items = gt_data[img_id]
+            pred_items = pred_data.get(img_id, [])
+
+            tp, fp, fn, matches, ious = self.evaluate_image(gt_items, pred_items)
+
+            total_tp += tp
+            total_fp += fp
+            total_fn += fn
+            all_ious.extend(ious)
+
+            matched_gt_ids = {m[1] for m in matches}
+            matched_pred_ids = {m[0] for m in matches}
+
+            for i, j, _ in matches:
+                label = gt_items[j]['label']
+                class_metrics[label]['tp'] += 1
+                y_true.append(label)
+                y_pred.append(label)
+
+            for i, pred in enumerate(pred_items):
+                if i not in matched_pred_ids:
+                    label = pred['label']
+                    class_metrics[label]['fp'] += 1
                     y_true.append('background')
-            
-            # Unmatched ground truth are false negatives
-            matched_gt_indices = {pair[1] for pair in result['matched_pairs']}
-            for i, gt_box in enumerate(gt_boxes):
-                if i not in matched_gt_indices:
-                    class_metrics[gt_box['label']]['fn'] += 1
-                    y_true.append(gt_box['label'])
+                    y_pred.append(label)
+
+            for j, gt in enumerate(gt_items):
+                if j not in matched_gt_ids:
+                    label = gt['label']
+                    class_metrics[label]['fn'] += 1
+                    y_true.append(label)
                     y_pred.append('background')
-        
-        # Calculate overall metrics
+
         precision = total_tp / (total_tp + total_fp) if (total_tp + total_fp) > 0 else 0
         recall = total_tp / (total_tp + total_fn) if (total_tp + total_fn) > 0 else 0
-        f1 = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
-        accuracy = total_tp / (total_tp + total_fp + total_fn) if (total_tp + total_fp + total_fn) > 0 else 0
-        
-        # Calculate class-wise metrics
-        class_precisions = {}
-        class_recalls = {}
-        class_f1s = {}
-        
-        for class_name, metrics in class_metrics.items():
-            tp = metrics['tp']
-            fp = metrics['fp']
-            fn = metrics['fn']
-            
-            class_precision = tp / (tp + fp) if (tp + fp) > 0 else 0
-            class_recall = tp / (tp + fn) if (tp + fn) > 0 else 0
-            class_f1 = 2 * (class_precision * class_recall) / (class_precision + class_recall) if (class_precision + class_recall) > 0 else 0
-            
-            class_precisions[class_name] = class_precision
-            class_recalls[class_name] = class_recall
-            class_f1s[class_name] = class_f1
-        
-        # Calculate mAP (simplified version - single IoU threshold)
-        map_score = np.mean(list(class_precisions.values())) if class_precisions else 0
-        
-        # Mean IoU
+        f1 = 2 * precision * recall / (precision + recall) if (precision + recall) > 0 else 0
         mean_iou = np.mean(all_ious) if all_ious else 0
-        
+        map_score = np.mean([
+            m['tp'] / (m['tp'] + m['fp']) if (m['tp'] + m['fp']) > 0 else 0
+            for m in class_metrics.values()
+        ])
+
         return {
             'overall': {
-                'accuracy': accuracy,
                 'precision': precision,
                 'recall': recall,
                 'f1': f1,
-                'map': map_score,
                 'mean_iou': mean_iou,
-                'total_tp': total_tp,
-                'total_fp': total_fp,
-                'total_fn': total_fn
+                'mAP': map_score,
+                'tp': total_tp,
+                'fp': total_fp,
+                'fn': total_fn,
             },
-            'class_wise': {
-                'precision': class_precisions,
-                'recall': class_recalls,
-                'f1': class_f1s
-            },
-            'confusion_matrix_data': {
-                'y_true': y_true,
-                'y_pred': y_pred
-            }
+            'class_metrics': class_metrics,
+            'confusion_data': (y_true, y_pred)
         }
-    
-    def plot_confusion_matrix(self, y_true, y_pred, title="Confusion Matrix"):
-        """Plot confusion matrix."""
-        if not y_true or not y_pred:
-            print("No data available for confusion matrix")
-            return
-        
-        # Get unique labels
+
+    def plot_confusion(self, y_true, y_pred):
         labels = sorted(list(set(y_true + y_pred)))
-        
-        # Create confusion matrix
         cm = confusion_matrix(y_true, y_pred, labels=labels)
-        
-        # Plot
         plt.figure(figsize=(10, 8))
-        sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', 
-                   xticklabels=labels, yticklabels=labels)
-        plt.title(title)
-        plt.xlabel('Predicted')
-        plt.ylabel('Actual')
-        plt.tight_layout()
+        sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=labels, yticklabels=labels)
+        plt.xlabel("Predicted")
+        plt.ylabel("Actual")
+        plt.title("Confusion Matrix")
         plt.show()
-    
-    def print_results(self, results):
-        """Print formatted results."""
-        print("="*50)
-        print("OBJECT DETECTION EVALUATION RESULTS")
-        print("="*50)
-        
-        overall = results['overall']
-        print(f"\nOVERALL METRICS:")
-        print(f"Accuracy:     {overall['accuracy']:.4f}")
-        print(f"Precision:    {overall['precision']:.4f}")
-        print(f"Recall:       {overall['recall']:.4f}")
-        print(f"F1-Score:     {overall['f1']:.4f}")
-        print(f"mAP:          {overall['map']:.4f}")
-        print(f"Mean IoU:     {overall['mean_iou']:.4f}")
-        print(f"\nCOUNTS:")
-        print(f"True Positives:  {overall['total_tp']}")
-        print(f"False Positives: {overall['total_fp']}")
-        print(f"False Negatives: {overall['total_fn']}")
-        
-        class_wise = results['class_wise']
-        if class_wise['precision']:
-            print(f"\nCLASS-WISE METRICS:")
-            print(f"{'Class':<15} {'Precision':<10} {'Recall':<10} {'F1-Score':<10}")
-            print("-" * 50)
-            for class_name in class_wise['precision']:
-                precision = class_wise['precision'][class_name]
-                recall = class_wise['recall'][class_name]
-                f1 = class_wise['f1'][class_name]
-                print(f"{class_name:<15} {precision:<10.4f} {recall:<10.4f} {f1:<10.4f}")
 
+    def print_report(self, results):
+        print("\n=== Overall Metrics ===")
+        for k, v in results['overall'].items():
+            print(f"{k.capitalize()}: {v:.4f}")
 
-def load_dataset_split(dataset, split_name):
-    """
-    Load data from Hugging Face Dataset split.
-    
-    Args:
-        dataset: DatasetDict or Dataset object
-        split_name: Name of the split ('train', 'validation', 'test')
-    
-    Returns:
-        list: List of dictionaries with bounding box and label info
-    """
-    if hasattr(dataset, 'keys') and split_name in dataset:
-        # DatasetDict case
-        split_data = dataset[split_name]
-    else:
-        # Single Dataset case
-        split_data = dataset
-    
-    # Convert to list of dictionaries
-    data = []
-    for i in range(len(split_data)):
-        item = split_data[i]
-        data.append({
-            'image': item['image'],  # Keep PIL image for reference
-            'label': item['label'],
-            'x_min': item['x_min'],
-            'y_min': item['y_min'],
-            'x_max': item['x_max'],
-            'y_max': item['y_max']
-        })
-    
-    return data
-
-def load_json_data(file_path):
-    """
-    Load data from JSON file (kept for backward compatibility).
-    Note: PIL Image objects cannot be directly serialized to JSON.
-    This function assumes the JSON contains the bounding box and label info only.
-    """
-    with open(file_path, 'r') as f:
-        return json.load(f)
-
-
-def evaluate_dataset(dataset_dict, gt_split='test', pred_split='test', model_predictions=None):
-    """
-    Evaluate object detection performance on a dataset split.
-    
-    Args:
-        dataset_dict: DatasetDict object with splits
-        gt_split: Split to use for ground truth (default: 'test')
-        pred_split: Split to use for predictions (default: 'test') 
-        model_predictions: Optional list of predictions. If None, uses pred_split as predictions
-    
-    Returns:
-        dict: Evaluation results
-    """
-    # Load ground truth data
-    gt_data = load_dataset_split(dataset_dict, gt_split)
-    
-    # Load prediction data
-    if model_predictions is not None:
-        pred_data = model_predictions
-    else:
-        pred_data = load_dataset_split(dataset_dict, pred_split)
-    
-    # Ensure same length
-    min_length = min(len(gt_data), len(pred_data))
-    gt_data = gt_data[:min_length]
-    pred_data = pred_data[:min_length]
-    
-    print(f"Evaluating {min_length} samples from {gt_split} split")
-    
-    # Initialize evaluator
-    evaluator = ObjectDetectionEvaluator(iou_threshold=0.5, confidence_threshold=0.0)
-    
-    # Calculate metrics
-    results = evaluator.calculate_metrics(gt_data, pred_data)
-    
-    return results, evaluator
+        print("\n=== Per-Class Metrics ===")
+        print(f"{'Class':<10} {'TP':<5} {'FP':<5} {'FN':<5}")
+        for cls, m in results['class_metrics'].items():
+            print(f"{cls:<10} {m['tp']:<5} {m['fp']:<5} {m['fn']:<5}")
 
 
 def main():
-   
-    print("Object Detection Evaluation Script")
-    print("=" * 60)
-    
-    
-    print("Running demo with sample data...")
-    
+    gt_path = "/Users/mohamedzakariakheder/Documents/code/Anote/cv-research/ground_truths (3).json"
+    pred_path = "/Users/mohamedzakariakheder/Documents/code/Anote/cv-research/predictions (1).json"
 
-    #REPLACE FOR YOUR USE
-    sample_gt_data = load_dataset('your_dataset')
-    
-    sample_pred_data = load_dataset('your_dataset')
-    
-    # Initialize evaluator
+    with open(gt_path, 'r') as f:
+        gt_data = json.load(f)
+
+    with open(pred_path, 'r') as f:
+        pred_data = json.load(f)
+
     evaluator = ObjectDetectionEvaluator(iou_threshold=0.5, confidence_threshold=0.0)
-    
-    # Calculate metrics
-    results = evaluator.calculate_metrics(sample_gt_data, sample_pred_data)
-    
-    # Print results
-    evaluator.print_results(results)
-    
-    # Plot confusion matrix
-    cm_data = results['confusion_matrix_data']
-    evaluator.plot_confusion_matrix(cm_data['y_true'], cm_data['y_pred'])
-    
-    print("\n" + "="*60)
-    print("To use with your DatasetDict:")
-    print("1. Load your dataset: dataset = load_dataset('your_dataset')")
-    print("2. Call: results, evaluator = evaluate_dataset(dataset)")
-    print("3. Print results: evaluator.print_results(results)")
-    print("="*60)
+    results = evaluator.evaluate(gt_data, pred_data)
+    evaluator.print_report(results)
+    evaluator.plot_confusion(*results['confusion_data'])
 
 
 if __name__ == "__main__":
